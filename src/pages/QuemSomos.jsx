@@ -3,7 +3,7 @@ import "../css/QuemSomos.css";
 export default function QuemSomos() {
   return (
     <>
-      <div className="container-quemSomos">
+      <div className="container-geral">
         <h1>Quem Somos</h1>
         <h2>AMB Assessoria Jurídica</h2>
         <p>
