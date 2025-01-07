@@ -1,0 +1,16 @@
+.container-equipe {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  width: 100%;
+  text-align: center;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.membro {
+  flex: 1;
+  margin: 20px;
+  border: 1px solid #000;
+  padding: 10px;
+}

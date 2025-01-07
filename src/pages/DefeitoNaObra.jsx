@@ -1,7 +1,7 @@
-export default function Imobiliario() {
+export default function DefeitoNaObra() {
   return (
     <div className="container-geral">
-      <h1>Imobiliário</h1>
+      <h1>Defeito na Obra</h1>
       <p></p>
     </div>
   );

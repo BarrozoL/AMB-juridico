@@ -1,22 +1,28 @@
 .logo {
-  width: 230px;
-}
-
-nav {
-  width: 50vw;
-  align-self: center;
+  width: 250px;
+  padding: 2%;
+  margin-top: 15px;
+  margin-right: 80px;
+  background-color: rgba(255, 255, 255, 0.669);
 }
 
 .navbar {
   margin: 0;
   width: 100vw;
-  height: 7vw;
+  height: 10vw;
   position: fixed;
-  top: 1%;
+  top: 0;
   left: 0;
   z-index: 1001;
   display: flex;
   flex-direction: row;
+  justify-content: center;
+  background-color: rgb(23, 23, 55);
+}
+
+.navbar-nav {
+  width: 40vw;
+  align-self: center;
 }
 
 .navbar nav ul {
@@ -28,8 +34,57 @@ nav {
   justify-content: space-around;
 }
 
-.navbar nav ul a {
+.nav-item {
+  position: relative;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.nav-link {
   padding: 3px;
   border-radius: 5%;
   font-size: 15px;
+}
+
+.nav-item .dropdown {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  padding: 10px;
+  margin-bottom: 50px;
+  background-color: rgb(23, 23, 55);
+}
+
+.nav-item:hover .dropdown {
+  display: block;
+  width: 300%;
+}
+
+.nav-item:hover {
+  background-color: rgb(106, 106, 101);
+}
+
+.nav-item .dropdown li {
+  margin-bottom: 7%; /* Adds space between all dropdown items */
+}
+
+.nav-item .dropdown li:last-child {
+  margin-bottom: 0; /* Ensures no extra space below the last item */
+}
+
+.entre-em-contato-nav {
+  color: white;
+  position: absolute;
+  right: 2%;
+  top: 3%;
+}
+
+.entre-em-contato-nav p {
+  font-family: "Franklin Gothic Medium";
+}
+
+.numero-contato-nav {
+  color: rgb(209, 154, 87);
 }

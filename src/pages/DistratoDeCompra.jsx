@@ -1,7 +1,7 @@
-export default function Imobiliario() {
+export default function DistratoDeCompra() {
   return (
     <div className="container-geral">
-      <h1>Imobiliário</h1>
+      <h1>Distrato de Compra</h1>
       <p></p>
     </div>
   );

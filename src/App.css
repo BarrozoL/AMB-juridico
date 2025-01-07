@@ -1,3 +1,14 @@
 body {
-  padding-top: 150px;
+  margin-top: 10%;
+  background-color: rgb(217, 222, 222);
+  font-family: sans-serif;
+}
+
+.container-geral {
+  width: 80vw;
+  text-align: center;
+  justify-content: center;
+  justify-self: center;
+  background-color: white;
+  height: 100vh;
 }
