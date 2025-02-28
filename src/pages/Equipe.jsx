@@ -3,8 +3,9 @@ import "../css/Equipe.css";
 export default function Equipe() {
   return (
     <div className="container-geral">
-      <h1>Equipe</h1>
-
+      <div className="h1-title-equipe">
+        <h1>Equipe</h1>
+      </div>
       <div className="container-equipe">
         <div className="membro">
           <h2 className="nome">Accacio Monteiro Barrozo</h2>
