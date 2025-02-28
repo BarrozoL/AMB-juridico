@@ -1,0 +1,125 @@
+/* Main container */
+.container-atraso {
+  width: 80%;
+  max-width: 1200px;
+  margin: 5% auto;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  text-align: left;
+  padding: 2rem;
+}
+
+/* Header at top with CTA button */
+.atraso-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.atraso-header h1 {
+  margin: 0;
+  color: rgba(37, 49, 85, 1);
+  font-size: 1.8rem;
+}
+
+/* Button for "Fale com o especialista" */
+.btn-specialista {
+  background-color: rgba(37, 49, 85, 1);
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 0.8rem 1.2rem;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.btn-specialista:hover {
+  background-color: #455299;
+}
+
+/* Introductory paragraph styling */
+.intro-section p {
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+/* Collapsible sections styling */
+.collapsible-wrapper {
+  margin-bottom: 2rem;
+  border-radius: 4px;
+  overflow: hidden;
+  border: 1px solid rgba(37, 49, 85, 0.3);
+}
+
+.collapsible-header {
+  background-color: rgba(37, 49, 85, 1);
+  color: #fff;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.collapsible-header h2 {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.collapsible-header .arrow {
+  font-size: 1.3rem;
+}
+
+.collapsible-content {
+  background-color: #fafafa;
+  padding: 1rem 1.5rem;
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+.collapsible-content p {
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+
+/* Source note styling */
+.fonte-text {
+  font-style: italic;
+  color: #555;
+}
+
+/* Simple fade-in animation for the collapsible content */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-5px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .container-atraso {
+    width: 90%;
+    margin: 2rem auto;
+    padding: 1rem;
+  }
+
+  .atraso-header h1 {
+    font-size: 1.4rem;
+  }
+
+  .btn-specialista {
+    font-size: 0.9rem;
+    padding: 0.5rem 1rem;
+  }
+
+  .collapsible-header h2 {
+    font-size: 1rem;
+  }
+}

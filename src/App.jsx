@@ -19,8 +19,10 @@ import Contato from "./pages/Contato";
 import Imobiliario from "./pages/Imobiliario";
 import AtrasoNaEntregaDaObra from "./pages/AtrasoNaEntregaDaObra";
 import DefeitoNaObra from "./pages/DefeitoNaObra";
-import DevolucaoDeImovel from "./pages/DevoluçaoDeImovel";
+import DevoluçaoDeImovel from "./pages/DevoluçaoDeImovel";
 import DistratoDeCompra from "./pages/DistratoDeCompra";
+
+import EscrituraDefinitivaNegada from "./pages/EscrituraDefinitivaNegada";
 
 function App() {
   return (
@@ -39,7 +41,7 @@ function App() {
         <Route
           exact
           path="/devoluçao-de-imovel"
-          element={<DevolucaoDeImovel />}
+          element={<DevoluçaoDeImovel />}
         />
         <Route
           exact
@@ -50,6 +52,12 @@ function App() {
           exact
           path="/distrato-de-compra-do-imovel"
           element={<DistratoDeCompra />}
+        />
+
+        <Route
+          exact
+          path="/escritura-definitiva-negada"
+          element={<EscrituraDefinitivaNegada />}
         />
 
         <Route exact path="/juridico" element={<Juridico />} />

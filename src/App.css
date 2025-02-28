@@ -2,13 +2,17 @@ body {
   margin-top: 10%;
   background-color: rgb(217, 222, 222);
   font-family: sans-serif;
+  box-sizing: border-box;
 }
 
 .container-geral {
   width: 80vw;
+  height: 100%;
+  max-width: 1200px;
   text-align: center;
   justify-content: center;
   justify-self: center;
   background-color: white;
-  height: 100vh;
+  padding: 40px 20px;
+  margin: 0 auto;
 }

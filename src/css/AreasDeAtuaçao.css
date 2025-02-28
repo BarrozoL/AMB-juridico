@@ -1,0 +1,64 @@
+/* Services Section */
+.services-section {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+}
+
+/* Individual Card */
+.service-card {
+  background-color: #fff;
+  border: 1px solid #eaeaea;
+  border-radius: 8px;
+  overflow: hidden; /* Ensures images or content don't overflow */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.2s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+}
+
+/* Card Image */
+.service-card img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Card Title and Text */
+.service-card h3 {
+  font-size: 1.2rem;
+  margin: 15px;
+  color: rgba(37, 49, 85);
+}
+
+.service-card p {
+  flex-grow: 1; /* Pushes the button to the bottom if the text is short */
+  margin: 0 15px 15px 15px;
+  line-height: 1.4;
+  color: #555;
+}
+
+/* "Saiba Mais" Button */
+.btn-saiba-mais {
+  display: inline-block;
+  margin: 15px;
+  padding: 10px 20px;
+  background-color: rgba(37, 49, 85);
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-saiba-mais:hover {
+  background-color: rgb(50, 78, 161);
+}

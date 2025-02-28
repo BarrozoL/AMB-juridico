@@ -1,10 +1,10 @@
 .logo {
-  width: 250px;
+  max-width: 17em;
   padding: 2%;
   margin-top: 3%;
-  position: absolute;
-  left: 15%;
-  top: -40%;
+  position: relative;
+  left: -20%;
+  top: 0%;
 }
 
 .navbar {
@@ -23,9 +23,9 @@
 }
 
 .navbar-nav {
-  width: 40vw;
+  width: 52vw;
   align-self: center;
-  margin-left: 200px;
+  margin-right: 100px;
 }
 
 .navbar nav ul {
@@ -57,12 +57,14 @@
   left: 0;
   padding: 10px;
   margin-bottom: 50px;
-  background-color: rgb(23, 23, 55);
+  background-color: grey;
 }
 
 .nav-item:hover .dropdown {
+  border-radius: 0.5em;
   display: block;
   width: 300%;
+  margin-top: 0.1em;
 }
 
 .nav-item:hover {
