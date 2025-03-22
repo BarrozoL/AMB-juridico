@@ -1,6 +1,8 @@
+@import "tailwindcss";
+
 body {
-  margin-top: 10%;
-  background-color: rgb(217, 222, 222);
+  margin-top: 9%;
+  background-color: white;
   font-family: sans-serif;
   box-sizing: border-box;
 }
