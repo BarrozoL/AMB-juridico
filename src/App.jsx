@@ -1,19 +1,17 @@
-import { useState } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "./App.css";
-import Navbar from "./components/navbar";
 
+import Navbar from "./components/navbar";
 //Pages:
 import QuemSomos from "./pages/QuemSomos";
-
 import Juridico from "./pages/Juridico";
-import BlogAmb from "./pages/BlogAmb";
 import HomePage from "./pages/HomePage";
 import Inventario from "./pages/Inventario";
 import AreasDeAtuacao from "./pages/AreasDeAtuaçao";
 import Equipe from "./pages/Equipe";
-
 import Contato from "./pages/Contato";
+import BlogAmb from "./pages/BlogAmb";
+import BlogPostsAmb from "./pages/BlogPostsAmb";
 
 //Imobiliário
 import Imobiliario from "./pages/Imobiliario";
@@ -61,7 +59,10 @@ function App() {
         />
 
         <Route exact path="/juridico" element={<Juridico />} />
+
         <Route exact path="/blog-amb" element={<BlogAmb />} />
+        <Route path="/blog/:slug" element={<BlogPostsAmb />} />
+
         <Route exact path="/contato" element={<Contato />} />
       </Routes>
     </Router>

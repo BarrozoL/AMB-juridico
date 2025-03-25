@@ -21,7 +21,7 @@ const Navbar = () => {
       >
         <NavLink
           to="/areas-de-atuacao"
-          className="block p-2 rounded-sm text-[15px]"
+          className="block p-2 px-5 rounded-sm text-[15px]"
         >
           Áreas de Atuação
         </NavLink>
@@ -30,20 +30,26 @@ const Navbar = () => {
         className="relative text-black uppercase font-bold group hover:bg-[rgb(106,106,101)]"
         onClick={closeMobileMenu}
       >
-        <NavLink to="/quem-somos" className="block p-2 rounded-sm text-[15px]">
+        <NavLink
+          to="/quem-somos"
+          className="block p-2 px-5 rounded-sm text-[15px]"
+        >
           Quem Somos +
         </NavLink>
-        <ul className="hidden group-hover:block absolute top-full left-0 bg-gray-400 p-2 rounded-md w-max mt-1">
+        <ul className="hidden group-hover:block absolute top-full left-0 bg-gray-400 p-2 rounded-md w-max mt-0">
           <li className="mb-2">
             <NavLink
               to="/quem-somos"
-              className="block p-2 rounded-sm text-[15px]"
+              className="block p-2 px-5 rounded-sm text-[15px]"
             >
               Sobre a empresa
             </NavLink>
           </li>
           <li>
-            <NavLink to="/equipe" className="block p-2 rounded-sm text-[15px]">
+            <NavLink
+              to="/equipe"
+              className="block p-2 px-5 rounded-sm text-[15px]"
+            >
               Equipe
             </NavLink>
           </li>
@@ -53,14 +59,17 @@ const Navbar = () => {
         className="relative text-black uppercase font-bold group hover:bg-[rgb(106,106,101)]"
         onClick={closeMobileMenu}
       >
-        <NavLink to="/imobiliario" className="block p-2 rounded-sm text-[15px]">
+        <NavLink
+          to="/imobiliario"
+          className="block p-2 px-5 rounded-sm text-[15px]"
+        >
           Imobiliário +
         </NavLink>
-        <ul className="hidden group-hover:block absolute top-full left-0 bg-gray-400 p-2 rounded-md w-max mt-1">
+        <ul className="hidden group-hover:block absolute top-full left-0 bg-gray-400 p-2 rounded-md w-max mt-0">
           <li className="mb-2">
             <NavLink
               to="/atraso-na-entrega-da-obra"
-              className="block p-2 rounded-sm text-[15px]"
+              className="block p-2 px-5 rounded-sm text-[15px]"
             >
               Atraso na Entrega da Obra
             </NavLink>
@@ -68,7 +77,7 @@ const Navbar = () => {
           <li className="mb-2">
             <NavLink
               to="/defeito-na-obra"
-              className="block p-2 rounded-sm text-[15px]"
+              className="block p-2 px-5 rounded-sm text-[15px]"
             >
               Defeito na Obra
             </NavLink>
@@ -76,7 +85,7 @@ const Navbar = () => {
           <li className="mb-2">
             <NavLink
               to="/devoluçao-de-imovel"
-              className="block p-2 rounded-sm text-[15px]"
+              className="block p-2 px-5 rounded-sm text-[15px]"
             >
               Devolução de Imóvel
             </NavLink>
@@ -84,7 +93,7 @@ const Navbar = () => {
           <li className="mb-2">
             <NavLink
               to="/distrato-de-compra-do-imovel"
-              className="block p-2 rounded-sm text-[15px]"
+              className="block p-2 px-5 rounded-sm text-[15px]"
             >
               Distrato de Compra do Imóvel
             </NavLink>
@@ -92,7 +101,7 @@ const Navbar = () => {
           <li>
             <NavLink
               to="/escritura-definitiva-negada"
-              className="block p-2 rounded-sm text-[15px]"
+              className="block p-2 px-5 rounded-sm text-[15px]"
             >
               Escritura Definitiva Negada
             </NavLink>
@@ -100,10 +109,13 @@ const Navbar = () => {
         </ul>
       </li>
       <li className="text-black uppercase font-bold" onClick={closeMobileMenu}>
-        <NavLink to="/inventario" className="block p-2 rounded-sm text-[15px]">
+        <NavLink
+          to="/inventario"
+          className="block p-2 px-5 rounded-sm text-[15px]"
+        >
           Inventário +
         </NavLink>
-        <ul className="hidden group-hover:block absolute top-full left-0 bg-gray-400 p-2 rounded-md w-max mt-1">
+        <ul className="hidden group-hover:block absolute top-full left-0 bg-gray-400 p-2 rounded-md w-max mt-0">
           <li className="mb-2">
             <NavLink
               to="/inventario"
@@ -131,12 +143,18 @@ const Navbar = () => {
         </ul>
       </li>
       <li className="text-black uppercase font-bold" onClick={closeMobileMenu}>
-        <NavLink to="/blog-amb" className="block p-2 rounded-sm text-[15px]">
+        <NavLink
+          to="/blog-amb"
+          className="block p-2 px-5 rounded-sm text-[15px]"
+        >
           Blog AMB
         </NavLink>
       </li>
       <li className="text-black uppercase font-bold" onClick={closeMobileMenu}>
-        <NavLink to="/contato" className="block p-2 rounded-sm text-[15px]">
+        <NavLink
+          to="/contato"
+          className="block p-2 px-5 rounded-sm text-[15px]"
+        >
           Contato
         </NavLink>
       </li>
@@ -144,14 +162,22 @@ const Navbar = () => {
   );
 
   return (
-    <div className="w-screen fixed top-0 left-0 z-[1001] bg-white shadow-md">
+    <div className="w-screen sticky top-0 left-0 z-[1001] bg-white shadow-md">
+      {" "}
+      {/* Contact Info (visible on desktop) */}
+      <div className="md:absolute md:right-10 md:top-4 text-black">
+        <p className="text-sm font-sans">Fale com o Dr. Accacio agora mesmo:</p>
+        <p className="text-[rgb(209,154,87)] font-sans text-lg md:absolute md:right-1">
+          <strong>(21) 3506-4713</strong>
+        </p>
+      </div>
       <div className="flex items-center justify-between w-full max-w-7xl px-4 py-2 relative">
         {/* Logo */}
         <NavLink to="/">
           <img
             src={ambLogo}
             alt="AMB Logo"
-            className="max-w-[11em] sm:max-w-[14em] p-1 mt-2 sm:mt-0"
+            className="max-w-[10em] sm:max-w-[14em] p-0 sm:mt-0"
           />
         </NavLink>
 
@@ -167,16 +193,7 @@ const Navbar = () => {
             {mobileMenuOpen ? "✕" : "☰"}
           </button>
         </div>
-
-        {/* Contact Info (visible on desktop) */}
-        <div className="hidden md:absolute md:right-4 md:top-4 text-black">
-          <p className="font-sans text-sm">
-            Fale com o Dr. Accacio agora mesmo:
-          </p>
-          <p className="text-[rgb(209,154,87)] text-sm">(21) 3506-4713</p>
-        </div>
       </div>
-
       {/* Mobile Navigation Menu */}
       {mobileMenuOpen && (
         <nav className="md:hidden bg-white border-t border-gray-200">
