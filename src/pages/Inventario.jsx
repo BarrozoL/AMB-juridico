@@ -14,7 +14,7 @@ export default function Inventario() {
         Fale com um especialista
       </button> */}
       {/* Main Content */}
-      <main className="max-w-screen-xl mx-auto p-5 sm:p-10 bg-white">
+      <main className="w-full max-w-4xl mx-auto px-4  py-10">
         {/* What is Inventário */}
         <section id="o-que-e-inventario" className="my-10 text-left">
           <h2 className="text-[#253155] text-[2rem] mb-3 border-b-2 border-[#253155] pb-1">

@@ -12,6 +12,8 @@ import iconeOlga from "../assets/images/imagem-review-olga-torres-amb.png";
 import iconeThais from "../assets/images/imagem-review-thais-moraes-amb.png";
 import iconeDanielle from "../assets/images/imagem-review-danielle-lindenmeyer-amb.png";
 
+import PracticeAreasCarousel from "../components/PracticeAreasCarroussel";
+
 export default function HomePage() {
   const [imageIndex, setImageIndex] = useState(0);
 
@@ -110,50 +112,8 @@ export default function HomePage() {
       </section>
 
       {/* ========== PRACTICE AREAS SECTION ========== */}
-      <section className="relative w-full bg-white pt-16 p-0 pb-20">
-        {/* 3 Cards container */}
-        <div className="max-w-6xl mx-auto px-6 grid md:grid-cols-3 gap-8">
-          {/* Card 1 */}
-          <div className="bg-gray-100 rounded-lg p-6 flex flex-col items-start">
-            <img src={iconeMartelo} alt="Martelo" className="w-16 mb-4" />
-            <h2 className="text-xl font-semibold mb-2">Direito Imobiliário</h2>
-            <p className="text-gray-700 mb-4">
-              O escritório atua na área do Direito Imobiliário: contratos,
-              disputas, e soluções jurídicas. Lorem ipsum dolor sit amet,
-              consectetur adipiscing elit.
-            </p>
-            <button className="mt-auto bg-[rgba(37,49,85,1)] hover:bg-[rgb(50,78,161)] text-white font-semibold px-4 py-2 rounded transition-colors">
-              Saiba Mais
-            </button>
-          </div>
 
-          {/* Card 2 */}
-          <div className="bg-gray-800 rounded-lg p-6 flex flex-col items-start text-white">
-            <img src={iconeBalanca} alt="Balança" className="w-16 mb-4" />
-            <h2 className="text-xl font-semibold mb-2">Inventário</h2>
-            <p className="mb-4">
-              O escritório atua na área de inventários e resolução de heranças,
-              simplificando o processo para as famílias em momentos delicados.
-            </p>
-            <button className="mt-auto bg-white text-gray-800 hover:bg-gray-200 font-semibold px-4 py-2 rounded transition-colors">
-              Saiba Mais
-            </button>
-          </div>
-
-          {/* Card 3 */}
-          <div className="bg-gray-100 rounded-lg p-6 flex flex-col items-start">
-            <img src={iconeLivro} alt="Livro" className="w-16 mb-4" />
-            <h2 className="text-xl font-semibold mb-2">Direito Tributário</h2>
-            <p className="text-gray-700 mb-4">
-              O escritório atua na área do Direito Tributário: consultoria e
-              planejamento fiscal para empresas e indivíduos.
-            </p>
-            <button className="mt-auto bg-[rgba(37,49,85,1)] hover:bg-[rgb(50,78,161)] text-white font-semibold px-4 py-2 rounded transition-colors">
-              Saiba Mais
-            </button>
-          </div>
-        </div>
-      </section>
+      <PracticeAreasCarousel />
 
       {/* ========== EXPERIENCE & STATS SECTION ========== */}
       <section className="bg-gray-100 py-16">
@@ -171,7 +131,7 @@ export default function HomePage() {
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
             {/* Single Stat Box */}
             <div className="bg-[rgba(37,49,85,1)] text-white rounded-lg p-6">
-              <div className="text-3xl font-semibold mb-2">350+</div>
+              <div className="text-3xl font-semibold mb-2">1,500+</div>
               <div className="text-sm uppercase tracking-wide">
                 Causas Vencidas
               </div>
@@ -185,10 +145,8 @@ export default function HomePage() {
             </div>
             {/* Single Stat Box */}
             <div className="bg-[rgba(37,49,85,1)] text-white rounded-lg p-6">
-              <div className="text-3xl font-semibold mb-2">500+</div>
-              <div className="text-sm uppercase tracking-wide">
-                Clientes satisfeitos
-              </div>
+              <div className="text-3xl font-semibold mb-2">2,000+</div>
+              <div className="text-sm uppercase tracking-wide">Clientes</div>
             </div>
             {/* Single Stat Box */}
             <div className="bg-[rgba(37,49,85,1)] text-white rounded-lg p-6">
@@ -203,7 +161,6 @@ export default function HomePage() {
 
       <section className="bg-white py-16">
         <div className="max-w-6xl mx-auto px-4 text-center">
-          {/* Section Title */}
           <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-8">
             Opiniões de Clientes
           </h2>
@@ -255,7 +212,7 @@ export default function HomePage() {
                 fizeram tudo da melhor forma e o inventário foi super rápido!"
               </p>
 
-              <div className="flex items-center justify-center">
+              <div className="flex left-0 items-center justify-center">
                 <img
                   src={iconeThais}
                   alt="Client photo"
@@ -269,7 +226,7 @@ export default function HomePage() {
             </div>
 
             {/* ======= Review Card 3 ======= */}
-            <div className="bg-white border rounded-lg p-6 shadow-md">
+            <div className="bg-white border rounded-lg p-6 shadow-md ">
               <div className="flex justify-center items-center mb-4 text-yellow-500">
                 <span className="mx-1 text-xl">&#9733;</span>
                 <span className="mx-1 text-xl">&#9733;</span>
@@ -300,14 +257,16 @@ export default function HomePage() {
                 </div>
               </div>
             </div>
-
-            {/* ======= Add more review cards as needed ======= */}
           </div>
 
-          {/* "View More" Button (optional) */}
-          <button className="mt-8 bg-[rgba(37,49,85,1)] hover:bg-[rgb(50,78,161)] text-white font-semibold px-6 py-3 rounded-full transition-colors">
-            View More
-          </button>
+          <a
+            target="blank"
+            href="https://www.google.com/search?sa=X&sca_esv=1fcf1833b6ed7c4a&rlz=1C1YTUH_pt-PTPT1033PT1033&hl=pt-PT&tbm=lcl&sxsrf=AHTn8zrKttevCg_4p7gpWyxdke3pUZXqlQ:1743027136855&q=Accacio+Monteiro+Barrozo+Assessoria+Jur%C3%ADdica+Cr%C3%ADticas&rflfq=1&num=20&stick=H4sIAAAAAAAAAONgkxIxNDMxtzQytrAwMTK3tLS0MDI3M9nAyPiK0dwxOTkxOTNfwTc_ryQ1syhfwSmxqCi_Kl_Bsbg4tbg4vygzUcGrtOjw2pTM5EQFZyCjBMgoXsRKrk4AHXR2uY8AAAA&rldimm=16479238842799982764&ved=2ahUKEwje2s2K4qiMAxUZ0wIHHf95IJsQ9fQKegQISxAF&biw=1707&bih=791&dpr=1.5#lkt=LocalPoiReviews"
+          >
+            <button className="cursor-pointer mt-8 bg-[rgba(37,49,85,1)] hover:bg-[rgb(50,78,161)] text-white font-semibold px-6 py-3 rounded-full transition-colors">
+              Ver mais avaliações
+            </button>
+          </a>
         </div>
       </section>
 
@@ -347,8 +306,11 @@ export default function HomePage() {
               style={{ top: "10%", right: "-5%" }}
             >
               <div className="flex flex-col items-center text-gray-800">
-                <span className="text-4xl font-bold">14</span>
-                <span className="text-base">Clientes satisfeitos</span>
+                <span className="text-4xl font-bold">30</span>
+                <span className=" text-center">
+                  anos de experiência <br />
+                  jurídica
+                </span>
               </div>
             </div>
           </div>
