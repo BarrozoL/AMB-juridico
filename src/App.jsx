@@ -2,6 +2,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "./App.css";
 
 import Navbar from "./components/navbar";
+import Footer from "./components/Footer";
 //Pages:
 import QuemSomos from "./pages/QuemSomos";
 import Juridico from "./pages/Juridico";
@@ -65,6 +66,7 @@ function App() {
 
         <Route exact path="/contato" element={<Contato />} />
       </Routes>
+      <Footer />
     </Router>
   );
 }

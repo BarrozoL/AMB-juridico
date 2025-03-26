@@ -7,24 +7,17 @@ export default function AtrasoNaEntrega() {
   const toggleLeiSection = () => setIsLeiOpen((prev) => !prev);
   const toggleCasoSection = () => setIsCasoOpen((prev) => !prev);
 
-  const handleContactClick = () => {
-    alert(
-      "Aqui você pode abrir um modal de contato ou redirecionar para uma página."
-    );
-  };
-
   return (
     <div className="w-full max-w-5xl mx-auto bg-white rounded-lg shadow-lg p-6 sm:p-8 my-8">
       <header className="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-6">
         <h1 className="text-[#253155] text-2xl sm:text-3xl font-bold mb-4 sm:mb-0">
           Atraso na Entrega da Obra
         </h1>
-        <button
-          onClick={handleContactClick}
-          className="bg-[#253155] hover:bg-blue-700 text-white font-bold py-2 px-4 rounded transition-colors duration-300"
-        >
-          Fale com o especialista
-        </button>
+        <a href="https://api.whatsapp.com/send/?phone=5521999684428&text&type=phone_number&app_absent=0">
+          <button className="bg-[#253155] cursor-pointer hover:bg-blue-700 text-white font-bold py-2 px-4 rounded transition-colors duration-300">
+            Fale com o especialista
+          </button>
+        </a>
       </header>
 
       {/* Intro / Explanation Section */}
