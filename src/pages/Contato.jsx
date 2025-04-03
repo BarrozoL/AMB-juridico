@@ -14,9 +14,12 @@ export default function ContatoPage() {
             consulta? Entre em contato conosco preenchendo o formulário ou
             utilizando os dados abaixo.
           </p>
-          <a href="https://api.whatsapp.com/send/?phone=5521999684428&text&type=phone_number&app_absent=0">
+          <a
+            href="https://api.whatsapp.com/send/?phone=5521999684428&text&type=phone_number&app_absent=0"
+            target="_blank"
+          >
             <button className="bg-[#253155] cursor-pointer hover:bg-blue-700 text-white font-bold py-2 px-4 rounded transition-colors duration-300">
-              Fale com o especialista
+              Fale com um especialista
             </button>
           </a>
           <br />

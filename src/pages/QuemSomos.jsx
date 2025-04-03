@@ -4,7 +4,7 @@ export default function QuemSomos() {
   return (
     <>
       <div className="grid grid-cols-1 md:grid-cols-1 gap-8">
-        <div className="w-full max-w-5xl mx-auto px-4  py-10">
+        <div className="w-full max-w-5xl mx-auto px-11 py-8">
           {/* Hero Section */}
           <header className="text-center bg-gradient-to-r from-[#005f40] to-[#253155] text-white py-16 rounded-md mb-10">
             <h1 className="text-3xl md:text-4xl font-bold mb-2">Quem Somos</h1>

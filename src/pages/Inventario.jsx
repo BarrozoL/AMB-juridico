@@ -4,7 +4,7 @@ export default function Inventario() {
   return (
     <>
       {/* Full-Width Hero Header */}
-      <header className="w-screen bg-[#211f40] text-white py-20 text-center">
+      <header className="w-screen bg-[#211f40] text-white py-13 text-center">
         <h1 className="text-4xl md:text-5xl font-didot uppercase tracking-wide ">
           Inventário
         </h1>
@@ -14,7 +14,7 @@ export default function Inventario() {
         Fale com um especialista
       </button> */}
       {/* Main Content */}
-      <main className="w-full max-w-4xl mx-auto px-4  py-10">
+      <main className="w-full max-w-4xl mx-auto px-4 ">
         {/* What is Inventário */}
         <section id="o-que-e-inventario" className="my-10 text-left">
           <h2 className="text-[#253155] text-[2rem] mb-3 border-b-2 border-[#253155] pb-1">
