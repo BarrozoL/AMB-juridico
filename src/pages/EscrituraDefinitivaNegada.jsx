@@ -4,18 +4,11 @@ export default function EscrituraDefinitivaNegada() {
   return (
     <div className="w-[90%] max-w-[1000px] mx-auto my-5 bg-white p-5 rounded shadow-md">
       {/* Header */}
-      <header className="bg-[#253155] text-white text-center p-5 rounded">
+      <header className="bg-[#253155] text-white text-center p-8 mb-7 rounded">
         <h1 className="text-3xl md:text-4xl font-bold mb-2">
           Escritura Definitiva Negada
         </h1>
       </header>
-
-      {/* Top Contact Button */}
-      <div className="my-4 text-center">
-        <button className="bg-[#253155] text-white px-5 py-2 rounded transition-colors duration-300 hover:bg-[#f0f0f0]">
-          Fale com um especialista
-        </button>
-      </div>
 
       <main className="p-5">
         {/* Introduction Section */}

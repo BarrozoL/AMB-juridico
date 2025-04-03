@@ -1,122 +1,28 @@
 import { useState } from "react";
 
-// Import your images here
-import estatuaBackground from "../assets/images/estatua-direito-amb.jpg";
-import iconeMartelo from "../assets/images/martelo-direito.png.png";
-import iconeBalanca from "../assets/images/balança-direito.png.png";
-import iconeLivro from "../assets/images/livro-direito.png.png";
-
 import accacioBarrozoImagem from "../assets/images/accacio-barrozo-imagem.jpg";
 
 import iconeOlga from "../assets/images/imagem-review-olga-torres-amb.png";
 import iconeThais from "../assets/images/imagem-review-thais-moraes-amb.png";
 import iconeDanielle from "../assets/images/imagem-review-danielle-lindenmeyer-amb.png";
 
+// Components
+import DonaHeroSection from "../components/DonaHeroSection";
+import HeroSection from "../components/HeroSection";
 import PracticeAreasCarousel from "../components/PracticeAreasCarroussel";
+import PerguntasFrequentes from "../components/PerguntasFrequentes";
 
 export default function HomePage() {
-  const [imageIndex, setImageIndex] = useState(0);
-
-  // Example slides array; replace images as needed
-  const slides = [
-    { image: estatuaBackground, text: "Defesa na Execução Fiscal de Dívidas" },
-    {
-      image: estatuaBackground,
-      text: "Problemas com Atraso na Entrega da Obra?",
-    },
-    {
-      image: estatuaBackground,
-      text: "Inventário Familiar e Resolução de Heranças",
-    },
-    {
-      image: estatuaBackground,
-      text: "Direito Tributário e Planejamento Fiscal",
-    },
-  ];
-
-  const prevImage = () => {
-    setImageIndex((prev) => (prev === 0 ? slides.length - 1 : prev - 1));
-  };
-
-  const nextImage = () => {
-    setImageIndex((prev) => (prev === slides.length - 1 ? 0 : prev + 1));
-  };
-
   return (
     <section className="relative w-full min-h-screen mb-16">
-      {/* ========== HERO SECTION (FULL SCREEN) ========== */}
-      <section className="relative w-full h-screen overflow-hidden">
-        {/* Background image */}
-        <div className="absolute inset-0 z-0">
-          <img
-            key={imageIndex}
-            src={slides[imageIndex].image}
-            alt="Hero background"
-            className="w-full h-full object-cover"
-          />
-        </div>
-
-        {/* Gradient overlay (same size as image) */}
-        <div className="absolute inset-0 z-10 bg-gradient-to-r from-black/85 to-transparent" />
-
-        {/* Carousel Controls (Arrows) */}
-        <div className="absolute inset-x-0 top-1/2 flex justify-between px-4 z-20 transform -translate-y-1/2">
-          <button
-            onClick={prevImage}
-            className="text-white bg-gray-800 bg-opacity-60 hover:bg-[rgb(50,78,161)] rounded-full w-10 h-10 flex items-center justify-center"
-          >
-            ❮
-          </button>
-          <button
-            onClick={nextImage}
-            className=" text-white bg-gray-800 bg-opacity-60 hover:bg-[rgb(50,78,161)] rounded-full w-10 h-10 flex items-center justify-center"
-          >
-            ❯
-          </button>
-        </div>
-
-        {/* Carousel Dots */}
-        <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2 flex space-x-2 z-20">
-          {slides.map((_, index) => (
-            <span
-              key={index}
-              onClick={() => setImageIndex(index)}
-              className={`block w-3 h-3 rounded-full cursor-pointer transition-colors ${
-                index === imageIndex ? "bg-white" : "bg-gray-400"
-              }`}
-            ></span>
-          ))}
-        </div>
-
-        {/* Hero Text & CTAs */}
-        <div className="absolute left-20 top-70 transform -translate-y-1/2 z-20 flex flex-col items-start justify-center h-full max-w-2xl px-6">
-          <p className="text-white text-sm md:text-base font-light mb-2"></p>
-          <h1
-            key={imageIndex}
-            className="text-white text-3xl md:text-5xl font-didot mb-3 leading-tight animate-fadeIn"
-          >
-            {slides[imageIndex].text}
-          </h1>
-          <h2 className="text-white text-lg md:text-xl font-light italic mb-8">
-            Desde 1996 em defesa do seu patrimônio
-          </h2>
-          <div className="flex space-x-4">
-            <button className="bg-[rgba(37,49,85,1)] hover:bg-[rgb(50,78,161)] text-white font-semibold px-6 py-3 rounded-full transition-colors">
-              Agende uma consulta
-            </button>
-            <button className="bg-transparent border-2 border-white text-white hover:bg-white hover:text-black font-semibold px-6 py-3 rounded-full transition-colors">
-              Envie sua pergunta
-            </button>
-          </div>
-        </div>
-      </section>
+      {/* ========== HERO SECTION ========== */}
+      <HeroSection />
 
       {/* ========== PRACTICE AREAS SECTION ========== */}
-
       <PracticeAreasCarousel />
 
       {/* ========== EXPERIENCE & STATS SECTION ========== */}
-      <section className="bg-gray-100 py-16">
+      <section className="bg-gray-100 py-15">
         <div className="max-w-6xl mx-auto px-4 text-center">
           {/* Title and description */}
           <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">
@@ -168,7 +74,7 @@ export default function HomePage() {
           {/* Reviews Grid */}
           <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
             {/* ======= Review Card 1 ======= */}
-            <div className="bg-white border rounded-lg p-6 shadow-md">
+            <div className="flex flex-col justify-between h-full bg-white border rounded-lg p-6 shadow-md">
               <div className="flex justify-center items-center mb-4 text-yellow-500">
                 {/* Simple star icons (Unicode). Replace with an icon component if you'd like */}
                 <span className="mx-1 text-xl">&#9733;</span>
@@ -198,7 +104,7 @@ export default function HomePage() {
             </div>
 
             {/* ======= Review Card 2 ======= */}
-            <div className="bg-white border rounded-lg p-6 shadow-md">
+            <div className="flex flex-col justify-between h-full bg-white border rounded-lg p-6 shadow-md">
               <div className="flex justify-center items-center mb-4 text-yellow-500">
                 <span className="mx-1 text-xl">&#9733;</span>
                 <span className="mx-1 text-xl">&#9733;</span>
@@ -226,7 +132,7 @@ export default function HomePage() {
             </div>
 
             {/* ======= Review Card 3 ======= */}
-            <div className="bg-white border rounded-lg p-6 shadow-md ">
+            <div className="flex flex-col justify-between h-full bg-white border rounded-lg p-6 shadow-md ">
               <div className="flex justify-center items-center mb-4 text-yellow-500">
                 <span className="mx-1 text-xl">&#9733;</span>
                 <span className="mx-1 text-xl">&#9733;</span>
@@ -269,6 +175,10 @@ export default function HomePage() {
           </a>
         </div>
       </section>
+
+      {/* ========== PERGUNTAS FREQUENTES SECTION ========== */}
+
+      <PerguntasFrequentes />
 
       {/* confidence section */}
       <section className="relative w-full bg-white py-16">
