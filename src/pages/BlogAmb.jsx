@@ -5,9 +5,12 @@ import { blogPosts } from "../components/BlogData";
 export default function BlogList() {
   return (
     <>
+      <header className="text-center bg-[#253155] text-white py-12">
+        <h1 className="text-3xl md:text-4xl font-bold tracking-wide">
+          Blog e Artigos
+        </h1>
+      </header>
       <div className="max-w-6xl mx-auto px-4 py-8">
-        <h1 className="text-3xl text-center font-bold mb-8">Blog</h1>
-
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10">
           {blogPosts.map((post) => (
             <div

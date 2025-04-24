@@ -14,19 +14,19 @@ const areas = [
     icon: casaPreta,
     title: "Direito Imobiliário",
     description:
-      "Contratos, disputas, soluções jurídicas para imóveis e propriedades.",
+      "Assessoria e regularização de imóveis, elaboração de contratos de compra e venda, locação e financiamento.",
   },
   {
     icon: marteloBranco,
-    title: "Inventário",
+    title: "Inventário e Sucessões",
     description:
-      "Resolução de heranças e divisão patrimonial de forma ágil e segura.",
+      "Planejamento sucessório, condução de inventários judiciais e extrajudiciais e resolução de conflitos familiares.",
   },
   {
     icon: livroPreto,
     title: "Direito Tributário",
     description:
-      "Consultoria fiscal, planejamento tributário e defesa em execuções fiscais.",
+      "Suporte jurídico para evitar abusos e garantir que os tributos sejam cobrados dentro dos limites da lei.",
   },
   {
     icon: balacaBranca,
@@ -83,17 +83,16 @@ export default function PracticeAreasCarousel() {
         </h2>
 
         <div className="relative">
-          {/* Arrows */}
           <button
             onClick={handlePrev}
-            className="cursor-pointer absolute left-0 top-1/2 -translate-y-1/2 bg-gray-200 hover:bg-gray-300 rounded-full p-2 z-10"
+            className="cursor-pointer absolute -ml-2 h-15 w-10 left-0 top-1/2 -translate-y-1/2 bg-gray-200 hover:bg-gray-300 rounded-full p-2 z-10"
             disabled={index === 0}
           >
             ❮
           </button>
           <button
             onClick={handleNext}
-            className="cursor-pointer absolute right-0 top-1/2 -translate-y-1/2 bg-gray-200 hover:bg-gray-300 rounded-full p-2 z-10"
+            className="cursor-pointer absolute h-15 w-10 right-0 top-1/2 -translate-y-1/2 bg-gray-200 hover:bg-gray-300 rounded-full p-2 z-10"
             disabled={index >= maxIndex}
           >
             ❯
@@ -129,7 +128,9 @@ export default function PracticeAreasCarousel() {
                       className="w-13 mb-4 mx-auto"
                     />
                     <h3 className="text-xl font-semibold mb-2">{area.title}</h3>
-                    <p className="text-md mb-4">{area.description}</p>
+                    <p className="text-md text-center mb-4">
+                      {area.description}
+                    </p>
 
                     <button
                       className={`mt-8 cursor-pointer font-semibold px-4 py-2 rounded transition-colors ${

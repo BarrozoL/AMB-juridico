@@ -3,9 +3,8 @@ import React from "react";
 export default function Inventario() {
   return (
     <>
-      {/* Full-Width Hero Header */}
-      <header className="w-screen bg-[#211f40] text-white py-13 text-center">
-        <h1 className="text-4xl md:text-5xl font-didot uppercase tracking-wide ">
+      <header className="w-full bg-[#253155] text-white py-12 text-center">
+        <h1 className="text-4xl md:text-5xl font-didot tracking-wide ">
           Inventário
         </h1>
       </header>
@@ -13,9 +12,8 @@ export default function Inventario() {
       {/*  <button className="bg-[#253155] text-white border-2 border-white px-4 py-3 text-base rounded transition-colors duration-300 hover:bg-[#211f40] hover:text-white">
         Fale com um especialista
       </button> */}
-      {/* Main Content */}
+
       <main className="w-full max-w-4xl mx-auto px-4 ">
-        {/* What is Inventário */}
         <section id="o-que-e-inventario" className="my-10 text-left">
           <h2 className="text-[#253155] text-[2rem] mb-3 border-b-2 border-[#253155] pb-1">
             O que é o Inventário?
