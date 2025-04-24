@@ -4,7 +4,6 @@ export default function ContatoPage() {
   return (
     <section className="bg-white py-20 px-6">
       <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-12">
-        {/* ===== Left Side: Info ===== */}
         <div>
           <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-6">
             Entre em Contato
@@ -24,6 +23,7 @@ export default function ContatoPage() {
           </a>
           <br />
           <br />
+          {/* ===== informações de contato ===== */}
           <div className="space-y-4 text-gray-700 text-lg">
             <p>
               <span className="font-semibold">Whatsapp:</span>
@@ -58,14 +58,19 @@ export default function ContatoPage() {
           </div>
         </div>
 
-        {/* ===== Right Side: Form ===== */}
+        {/* ===== formulário ===== */}
         <div className="bg-gray-100 p-8 rounded-lg shadow-md">
-          <form className="space-y-4">
+          <form
+            action="https://formspree.io/f/xpwdznyl"
+            method="POST"
+            className="space-y-4"
+          >
             <div>
               <label className="block text-sm font-medium text-gray-700">
                 Nome
               </label>
               <input
+                name="name"
                 type="text"
                 className="mt-1 w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[rgba(37,49,85,1)]"
                 placeholder="Seu nome"
@@ -77,6 +82,7 @@ export default function ContatoPage() {
                 Email
               </label>
               <input
+                name="email"
                 type="email"
                 className="mt-1 w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[rgba(37,49,85,1)]"
                 placeholder="Seu email"
@@ -88,6 +94,7 @@ export default function ContatoPage() {
                 Telefone
               </label>
               <input
+                name="phone"
                 type="text"
                 className="mt-1 w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[rgba(37,49,85,1)]"
                 placeholder="Seu telefone"
@@ -99,6 +106,8 @@ export default function ContatoPage() {
                 Mensagem
               </label>
               <textarea
+                required
+                name="message"
                 rows="5"
                 className="mt-1 w-full px-4 py-2 border border-gray-300 rounded-md resize-none focus:outline-none focus:ring-2 focus:ring-[rgba(37,49,85,1)]"
                 placeholder="Escreva sua mensagem aqui..."
@@ -106,6 +115,7 @@ export default function ContatoPage() {
             </div>
 
             <button
+              target="blank"
               type="submit"
               className="w-full bg-[rgba(37,49,85,1)] hover:bg-[rgb(50,78,161)] text-white font-semibold py-2 rounded transition"
             >

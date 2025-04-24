@@ -191,11 +191,12 @@ export default function HomePage() {
             <h2 className="mt-2 text-3xl md:text-4xl font-bold text-gray-800">
               Garantia de Qualidade
             </h2>
-            <p className="mt-4 text-gray-600 leading-relaxed">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis
-              aute irure dolor in reprehenderit in voluptate velit esse cillum
-              dolore eu fugiat nulla pariatur.
+            <p className="mt-4 text-justify text-gray-600 leading-relaxed">
+              Há quase três décadas, nosso escritório tem sido referência no
+              cenário jurídico, oferecendo soluções eficazes e seguras para
+              nossos clientes. Com uma equipe altamente qualificada e um
+              compromisso inabalável com a justiça, atuamos em diversas áreas do
+              direito para garantir proteção e assertividade em cada caso.
             </p>
             <button className="mt-6 bg-[rgba(37,49,85,1)] hover:bg-[rgb(50,78,161)] text-white font-semibold px-6 py-3 rounded-full transition-colors">
               Mains informações
@@ -211,7 +212,7 @@ export default function HomePage() {
             />
 
             {/* Overlay box, adjust position as needed */}
-            <div
+            {/*  <div
               className="absolute flex items-center justify-center bg-white shadow-md border border-gray-200 rounded p-6"
               style={{ top: "10%", right: "-5%" }}
             >
@@ -222,7 +223,7 @@ export default function HomePage() {
                   jurídica
                 </span>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>

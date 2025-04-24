@@ -7,10 +7,12 @@ export default function AtrasoNaEntrega() {
   const toggleLeiSection = () => setIsLeiOpen((prev) => !prev);
   const toggleCasoSection = () => setIsCasoOpen((prev) => !prev);
 
+  /*   bg-gradient-to-r from-[#005f40] to-[#253155] */
+
   return (
     <>
-      <header className="text-center bg-gradient-to-r from-[#005f40] to-[#253155] text-white py-16">
-        <h1 className="text-3xl md:text-4xl font-bold font-didot tracking-wide">
+      <header className="text-center bg-[#253155] text-white py-14">
+        <h1 className="text-3xl md:text-4xl font-bold tracking-wide">
           Atraso na Entrega da Obra
         </h1>
       </header>
