@@ -108,7 +108,7 @@ export default function Footer() {
       {/* Bottom Bar */}
       <div className="max-w-6xl mx-auto px-4 mt-8 border-t border-gray-700 pt-4 flex flex-col sm:flex-row items-center justify-between">
         <p className="text-sm text-gray-500 mb-4 sm:mb-0">
-          © 1996-2023 ACCACIO MONTEIRO BARROZO ADVOGADOS | ASSESSORIA JURÍDICA
+          Desde 1996 ACCACIO MONTEIRO BARROZO ADVOGADOS | ASSESSORIA JURÍDICA
         </p>
 
         {/* Social Icons Row (dummy links) */}

@@ -30,11 +30,10 @@ const areas = [
   },
   {
     icon: balacaBranca,
-    title: "Direito do Consumidor",
-    description:
-      "Defesa de direitos em relações de consumo e cobranças indevidas.",
+    title: "Execução Fiscal",
+    description: "Defesa na execução fiscal.",
   },
-  {
+  /*  {
     icon: marteloPreto,
     title: "Direito de Família",
     description:
@@ -45,7 +44,7 @@ const areas = [
     title: "Direito Previdenciário",
     description:
       "Aposentadoria, benefícios do INSS e revisão de cálculos previdenciários.",
-  },
+  }, */
 ];
 
 export default function PracticeAreasCarousel() {

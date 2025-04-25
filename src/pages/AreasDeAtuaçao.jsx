@@ -62,13 +62,13 @@ export default function AreasDeAtuacao() {
           </div>
 
           {/* CARD 4 */}
-          {/*      <div className="bg-white border border-[#eaeaea] rounded-[8px] overflow-hidden shadow-[0_2px_5px_rgba(0,0,0,0.1)] flex flex-col transition-transform ease-in-out duration-200 hover:-translate-y-[5px]">
+          <div className="bg-white border border-[#eaeaea] rounded-[8px] overflow-hidden shadow-[0_2px_5px_rgba(0,0,0,0.1)] flex flex-col transition-transform ease-in-out duration-200 hover:-translate-y-[5px]">
             <img src="" alt="" className="w-full h-auto block" />
             <h3 className="text-[1.2rem] text-center m-[15px] text-[rgba(37,49,85,1)]">
-              Direito do Consumidor
+              Execução Fiscal
             </h3>
             <p className="flex-grow text-center mx-[15px] mb-[15px] text-[#555] leading-[1.4]">
-              Defesa de direitos em relações de consumo e cobranças indevidas.
+              Defesa na execução fiscal.
             </p>
             <a
               href="#"
@@ -76,7 +76,7 @@ export default function AreasDeAtuacao() {
             >
               Saiba Mais
             </a>
-          </div> */}
+          </div>
 
           {/* CARD 5 */}
           {/*   <div className="bg-white border border-[#eaeaea] rounded-[8px] overflow-hidden shadow-[0_2px_5px_rgba(0,0,0,0.1)] flex flex-col transition-transform ease-in-out duration-200 hover:-translate-y-[5px]">
