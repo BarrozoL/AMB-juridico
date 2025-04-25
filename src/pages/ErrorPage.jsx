@@ -9,7 +9,7 @@ export default function ErrorPage() {
       </p>
       <a
         href="/"
-        className="mt-6 px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600"
+        className="mt-6 px-4 py-2 bg-[rgba(37,49,85,1)] hover:bg-[rgb(50,78,161)] text-white rounded "
       >
         Voltar para a página inicial
       </a>
