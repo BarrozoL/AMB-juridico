@@ -23,6 +23,9 @@ import DistratoDeCompra from "./pages/DistratoDeCompra";
 
 import EscrituraDefinitivaNegada from "./pages/EscrituraDefinitivaNegada";
 
+import FormCompletePage from "./pages/FormCompletePage";
+import ErrorPage from "./pages/ErrorPage";
+
 function App() {
   return (
     <Router>
@@ -65,6 +68,8 @@ function App() {
         <Route path="/blog/:slug" element={<BlogPostsAmb />} />
 
         <Route exact path="/contato" element={<Contato />} />
+        <Route exact path="/form-complete" element={<FormCompletePage />} />
+        <Route path="*" element={<ErrorPage />} />
       </Routes>
       <Footer />
     </Router>
