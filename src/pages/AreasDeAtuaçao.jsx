@@ -18,7 +18,7 @@ export default function AreasDeAtuacao() {
               compra e venda, locação e financiamento.
             </p>
             <a
-              href="#"
+              href="/imobiliario"
               className="inline-block mx-[15px] mb-[15px] px-[20px] py-[10px] bg-[rgba(37,49,85,1)] text-white no-underline uppercase font-bold rounded-[4px] transition-colors duration-300 hover:bg-[rgb(50,78,161)]"
             >
               Saiba Mais
@@ -36,7 +36,7 @@ export default function AreasDeAtuacao() {
               extrajudiciais e resolução de conflitos familiares.
             </p>
             <a
-              href="#"
+              href="/inventario"
               className="inline-block mx-[15px] mb-[15px] px-[20px] py-[10px] bg-[rgba(37,49,85,1)] text-white no-underline uppercase font-bold rounded-[4px] transition-colors duration-300 hover:bg-[rgb(50,78,161)]"
             >
               Saiba Mais
