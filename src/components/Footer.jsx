@@ -16,7 +16,14 @@ export default function Footer() {
           <h3 className="text-lg font-semibold text-[#D1A25A] mb-2">
             WHATSAPP:
           </h3>
-          <p className="mb-4">(21) 99968-4428</p>
+          <a
+            href="https://api.whatsapp.com/send/?phone=5521999684428&text&type=phone_number&app_absent=0"
+            target="_blank"
+            rel="noreferrer"
+            className="hover:underline"
+          >
+            (21) 99968-4428
+          </a>
 
           <h3 className="text-lg font-semibold text-[#D1A25A] mb-2">SOBRE</h3>
           <p className="text-sm text-justify mb-4 leading-relaxed">
@@ -25,10 +32,16 @@ export default function Footer() {
             dois mil clientes, atuando de forma preventiva, consultiva e
             contenciosa em procedimentos judiciais e extrajudiciais....
           </p>
-
-          <button className="bg-[#D1A25A] hover:bg-[#e0b874] text-black font-semibold px-4 py-2 rounded mb-4 transition-colors">
-            CONTACTAR
-          </button>
+          <a
+            href="https://api.whatsapp.com/send/?phone=5521999684428&text&type=phone_number&app_absent=0"
+            target="_blank"
+            rel="noreferrer"
+            className="hover:underline mb-4"
+          >
+            <button className="bg-[#D1A25A] hover:bg-[#e0b874] text-black font-semibold px-4 py-2 rounded mb-4 transition-colors">
+              CONTACTAR
+            </button>
+          </a>
           <a
             href="https://www.google.com/maps/place/Accacio+Monteiro+Barrozo+Assessoria+Jur%C3%ADdica/@-22.9076705,-43.1771169,17z/data=!4m6!3m5!1s0x997f6067918c27:0xe4b2046ab1e988ac!8m2!3d-22.9074866!4d-43.1764901!16s%2Fg%2F1td3sqlx?entry=ttu&g_ep=EgoyMDI1MDMyMy4wIKXMDSoASAFQAw%3D%3D"
             target="_blank"
@@ -49,7 +62,7 @@ export default function Footer() {
             <span className="font-semibold">JURÍDICO:</span>{" "}
             <a
               href="mailto:juridico@accaciobarrozo.com.br"
-              className="hover:text-white"
+              className="hover:text-white hover:underline"
             >
               juridico@accaciobarrozo.com.br
             </a>
@@ -59,7 +72,7 @@ export default function Footer() {
             <span className="font-semibold">FINANCEIRO:</span>{" "}
             <a
               href="mailto:financeiro@accaciobarrozo.com.br"
-              className="hover:text-white"
+              className="hover:text-white hover:underline"
             >
               financeiro@accaciobarrozo.com.br
             </a>
@@ -69,7 +82,7 @@ export default function Footer() {
             <span className="font-semibold">ACCACIO BARROZO:</span>{" "}
             <a
               href="mailto:accacio@accaciobarrozo.com.br"
-              className="hover:text-white"
+              className="hover:text-white hover:underline"
             >
               accacio@accaciobarrozo.com.br
             </a>
@@ -90,7 +103,7 @@ export default function Footer() {
           <h4 className="text-lg  font-semibold text-[#D1A25A] mb-2">
             ASSINE NOSSA NEWSLETTER
           </h4>
-          {/* Simple Newsletter Form */}
+
           <div className="flex flex-col sm:flex-row items-center gap-2">
             <input
               type="email"
@@ -108,10 +121,10 @@ export default function Footer() {
       {/* Bottom Bar */}
       <div className="max-w-6xl mx-auto px-4 mt-8 border-t border-gray-700 pt-4 flex flex-col sm:flex-row items-center justify-between">
         <p className="text-sm text-gray-500 mb-4 sm:mb-0">
-          © 1996-2023 ACCACIO MONTEIRO BARROZO ADVOGADOS | ASSESSORIA JURÍDICA
+          Desde 1996 ACCACIO MONTEIRO BARROZO ADVOGADOS | ASSESSORIA JURÍDICA
         </p>
 
-        {/* Social Icons Row (dummy links) */}
+        {/* Social Icons Row*/}
         <div className="flex space-x-4">
           <a
             href="#"

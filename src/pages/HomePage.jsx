@@ -198,9 +198,16 @@ export default function HomePage() {
               compromisso inabalável com a justiça, atuamos em diversas áreas do
               direito para garantir proteção e assertividade em cada caso.
             </p>
-            <button className="mt-6 bg-[rgba(37,49,85,1)] hover:bg-[rgb(50,78,161)] text-white font-semibold px-6 py-3 rounded-full transition-colors">
-              Mains informações
-            </button>
+            <a
+              href="https://api.whatsapp.com/send/?phone=5521999684428&text&type=phone_number&app_absent=0"
+              target="_blank"
+              rel="noreferrer"
+              className="hover:underline mb-4"
+            >
+              <button className="mt-6 bg-[rgba(37,49,85,1)] hover:bg-[rgb(50,78,161)] text-white font-semibold px-6 py-3 rounded-full transition-colors">
+                Mais informações
+              </button>
+            </a>
           </div>
 
           {/* RIGHT COLUMN: Image + Overlay Box */}

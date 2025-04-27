@@ -22,14 +22,16 @@ export default function HeroSection() {
             <div className="mt-4 flex gap-4 sm:mt-6">
               <a
                 className="inline-block rounded border border-indigo-600 bg-indigo-600 px-5 py-3 font-medium text-white shadow-sm transition-colors hover:bg-indigo-700"
-                href="#"
+                href="https://api.whatsapp.com/send/?phone=5521999684428&text&type=phone_number&app_absent=0"
+                target="_blank"
               >
                 Entre em contato
               </a>
 
               <a
                 className="inline-block rounded border border-gray-200 px-5 py-3 font-medium text-gray-700 shadow-sm transition-colors hover:bg-gray-50 hover:text-gray-900"
-                href="#"
+                href="/execuçao-fiscal"
+                target="_blank"
               >
                 Mais informações
               </a>

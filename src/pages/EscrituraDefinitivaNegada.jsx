@@ -170,9 +170,14 @@ export default function EscrituraDefinitivaNegada() {
 
         {/* Bottom Contact Button */}
         <div className="text-center my-4">
-          <button className="bg-[#253155] text-white px-5 py-2 rounded transition-colors duration-300 hover:bg-[#f0f0f0]">
-            Fale com o especialista
-          </button>
+          <a
+            href="https://api.whatsapp.com/send/?phone=5521999684428&text&type=phone_number&app_absent=0"
+            target="_blank"
+          >
+            <button className="bg-[#253155] text-white px-5 py-2 rounded transition-colors duration-300 hover:bg-[#f0f0f0]">
+              Fale com o especialista
+            </button>
+          </a>
         </div>
       </div>
     </>

@@ -245,9 +245,14 @@ export default function Inventario() {
             inventário pode ser complexo e, em momentos delicados, é fundamental
             contar com a assessoria jurídica adequada.
           </p>
-          <button className="cta-button bg-[rgba(37,49,85,1)] hover:bg-[rgb(50,78,161)] text-white font-semibold px-6 py-3 rounded-full transition-colors">
-            Fale com o especialista
-          </button>
+          <a
+            href="https://api.whatsapp.com/send/?phone=5521999684428&text&type=phone_number&app_absent=0"
+            target="_blank"
+          >
+            <button className="cta-button bg-[rgba(37,49,85,1)] hover:bg-[rgb(50,78,161)] text-white font-semibold px-6 py-3 rounded-full transition-colors">
+              Fale com o especialista
+            </button>
+          </a>
         </section>
       </main>
 

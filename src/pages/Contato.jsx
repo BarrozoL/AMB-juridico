@@ -28,7 +28,14 @@ export default function ContatoPage() {
             <p>
               <span className="font-semibold">Whatsapp:</span>
               <br />
-              (21) 99968-4428
+              <a
+                href="https://api.whatsapp.com/send/?phone=5521999684428&text&type=phone_number&app_absent=0"
+                target="_blank"
+                rel="noreferrer"
+                className="hover:underline"
+              >
+                (21) 99968-4428
+              </a>
             </p>
             <p>
               <span className="font-semibold">Telefone:</span>

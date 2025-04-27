@@ -3,6 +3,7 @@ import "./App.css";
 
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+
 //Pages:
 import QuemSomos from "./pages/QuemSomos";
 import Juridico from "./pages/Juridico";
@@ -10,9 +11,9 @@ import HomePage from "./pages/HomePage";
 import Inventario from "./pages/Inventario";
 import AreasDeAtuacao from "./pages/AreasDeAtuaçao";
 import Equipe from "./pages/Equipe";
-import Contato from "./pages/Contato";
-import BlogAmb from "./pages/BlogAmb";
-import BlogPostsAmb from "./pages/BlogPostsAmb";
+
+import EscrituraDefinitivaNegada from "./pages/EscrituraDefinitivaNegada";
+import ExecuçaoFiscal from "./pages/ExecuçaoFiscal";
 
 //Imobiliário
 import Imobiliario from "./pages/Imobiliario";
@@ -21,8 +22,15 @@ import DefeitoNaObra from "./pages/DefeitoNaObra";
 import DevoluçaoDeImovel from "./pages/DevoluçaoDeImovel";
 import DistratoDeCompra from "./pages/DistratoDeCompra";
 
-import EscrituraDefinitivaNegada from "./pages/EscrituraDefinitivaNegada";
+//Blog
+import BlogAmb from "./pages/BlogAmb";
+import BlogPostsAmb from "./pages/BlogPostsAmb";
 
+//Causas Vencidas
+import CausasVencidas from "./pages/CausasVencidas";
+import CausasVencidasPosts from "./pages/CausasVencidasPosts";
+
+import Contato from "./pages/Contato";
 import FormCompletePage from "./pages/FormCompletePage";
 import ErrorPage from "./pages/ErrorPage";
 
@@ -36,6 +44,8 @@ function App() {
         <Route exact path="/areas-de-atuacao" element={<AreasDeAtuacao />} />
         <Route exact path="/equipe" element={<Equipe />} />
         <Route exact path="/inventario" element={<Inventario />} />
+
+        <Route exact path="/execuçao-fiscal" element={<ExecuçaoFiscal />} />
 
         {/* Routes Imobiliário: */}
         <Route exact path="/imobiliario" element={<Imobiliario />} />
@@ -66,6 +76,12 @@ function App() {
 
         <Route exact path="/blog-amb" element={<BlogAmb />} />
         <Route path="/blog/:slug" element={<BlogPostsAmb />} />
+
+        <Route exact path="/causas-vencidas" element={<CausasVencidas />} />
+        <Route
+          path="/causas-vencidas/:slug"
+          element={<CausasVencidasPosts />}
+        />
 
         <Route exact path="/contato" element={<Contato />} />
         <Route exact path="/form-complete" element={<FormCompletePage />} />
