@@ -16,9 +16,14 @@ export default function DevolucaoImovel() {
           <h1 className="text-3xl font-bold text-[#253155]"></h1>
 
           <div className="my-4">
-            <button className="bg-[#253155] text-white px-5 py-2 rounded transition-colors duration-300 hover:bg-[#1d2747]">
-              Fale com um Especialista
-            </button>
+            <a
+              href="https://api.whatsapp.com/send/?phone=5521999684428&text&type=phone_number&app_absent=0"
+              target="_blank"
+            >
+              <button className="bg-[#253155] text-white px-5 py-2 rounded transition-colors duration-300 hover:bg-[#1d2747]">
+                Fale com um Especialista
+              </button>
+            </a>
           </div>
         </header>
 
@@ -114,9 +119,14 @@ export default function DevolucaoImovel() {
             imóvel, nossa equipe está pronta para auxiliá-lo. Entre em contato
             conosco para uma avaliação detalhada do seu caso.
           </p>
-          <button className="bg-[#253155] text-white px-5 py-2 rounded transition-colors duration-300 hover:bg-[#1d2747]">
-            Fale com um Especialista
-          </button>
+          <a
+            href="https://api.whatsapp.com/send/?phone=5521999684428&text&type=phone_number&app_absent=0"
+            target="_blank"
+          >
+            <button className="bg-[#253155] text-white px-5 py-2 rounded transition-colors duration-300 hover:bg-[#1d2747]">
+              Fale com um Especialista
+            </button>
+          </a>
         </section>
       </div>
     </>

@@ -26,6 +26,11 @@ const navItems = [
     ],
   },
   {
+    label: "Execução Fiscal",
+    path: "/execuçao-fiscal",
+    dropdown: false,
+  },
+  {
     label: "Imobiliário",
     path: "/imobiliario",
     dropdown: true,
@@ -52,12 +57,17 @@ const navItems = [
     dropdown: true,
     subItems: [
       { label: "O que é um inventário?", path: "/inventario" },
-      { label: "Partilha de herança", path: "/partilha-de-heranca" },
+      /*  { label: "Partilha de herança", path: "/partilha-de-heranca" },
       {
         label: "Inventário judicial e extrajudicial",
         path: "/inventario-judicial-e-extrajudicial",
-      },
+      }, */
     ],
+  },
+  {
+    label: "Causas Vencidas",
+    path: "/causas-vencidas",
+    dropdown: false,
   },
   {
     label: "Blog AMB",
@@ -99,7 +109,7 @@ function DesktopNav() {
               href={item.path}
               className="block px-4 py-2 text-sm font-medium text-gray-700 hover:bg-neutral-100 hover:text-yellow-600 rounded-md"
             >
-              {item.label} {/* Could replace '+' with an icon */}
+              {item.label}
             </a>
             {/* Submenu (shown on hover) */}
             <ul className="absolute hidden group-hover:block top-full left-0 bg-white shadow-md p-2 rounded-md mt-0 z-10 min-w-[10rem]">
@@ -209,7 +219,7 @@ export default function Navbar() {
   return (
     <header className="w-full sticky top-0 left-0 z-50 bg-white shadow-md">
       {/* Top Row: Logo + appropriate nav + hamburger */}
-      <div className="flex items-center w-full max-w-6xl mx-auto px-4 py-2">
+      <div className="flex items-center w-full max-w-7xl mx-auto px-4 py-2">
         {/* Logo */}
         <a href="/" onClick={closeMobileMenu} className="mr-4">
           <img

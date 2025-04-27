@@ -8,10 +8,10 @@ export default function PerguntasFrequentes() {
 
         <div className="grid grid-cols-1 gap-16 mt-8 lg:mt-16 md:grid-cols-2 xl:grid-cols-3">
           <div>
-            <div className="inline-block p-3 text-white bg-blue-600 rounded-lg">
+            <div className="inline-flex p-3 mb-2 text-white bg-blue-600 rounded-lg">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                className="w-6 h-6"
+                className="center w-6 h-6"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
@@ -23,8 +23,8 @@ export default function PerguntasFrequentes() {
                   d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
                 />
               </svg>
+              <h3 className="ml-2 font-bold">Imobiliario</h3>
             </div>
-
             <div>
               <h1 className="text-xl text-justify font-semibold text-gray-700 ">
                 Posso realizar um distrato de imóvel ainda na planta?
@@ -41,7 +41,7 @@ export default function PerguntasFrequentes() {
           </div>
 
           <div>
-            <div className="inline-block p-3 text-white bg-blue-600 rounded-lg">
+            <div className="inline-flex mb-2 p-3 text-white bg-blue-600 rounded-lg ">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="w-6 h-6"
@@ -56,6 +56,7 @@ export default function PerguntasFrequentes() {
                   d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
                 />
               </svg>
+              <h3 className="ml-2 font-bold">Imobiliario</h3>
             </div>
 
             <div>
@@ -75,7 +76,7 @@ export default function PerguntasFrequentes() {
           </div>
 
           <div>
-            <div className="inline-block p-3 text-white bg-blue-600 rounded-lg">
+            <div className="inline-flex mb-2 p-3 text-white bg-blue-600 rounded-lg">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="w-6 h-6"
@@ -90,6 +91,7 @@ export default function PerguntasFrequentes() {
                   d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
                 />
               </svg>
+              <h3 className="ml-2 font-bold">Imobiliario</h3>
             </div>
 
             <div>
@@ -109,7 +111,7 @@ export default function PerguntasFrequentes() {
           </div>
 
           <div>
-            <div className="inline-block p-3 text-white bg-blue-600 rounded-lg">
+            <div className="inline-flex mb-2 p-3 text-white bg-blue-600 rounded-lg">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="w-6 h-6"
@@ -124,6 +126,7 @@ export default function PerguntasFrequentes() {
                   d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
                 />
               </svg>
+              <h3 className="ml-2 font-bold">Imobiliario</h3>
             </div>
 
             <div>
@@ -145,7 +148,7 @@ export default function PerguntasFrequentes() {
           </div>
 
           <div>
-            <div className="inline-block p-3 text-white bg-blue-600 rounded-lg">
+            <div className="inline-flex mb-2 p-3 text-white bg-blue-600 rounded-lg">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="w-6 h-6"
@@ -160,6 +163,7 @@ export default function PerguntasFrequentes() {
                   d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
                 />
               </svg>
+              <h3 className="ml-2 font-bold">Tributário</h3>
             </div>
 
             <div>
@@ -181,7 +185,7 @@ export default function PerguntasFrequentes() {
           </div>
 
           <div>
-            <div className="inline-block p-3 text-white bg-blue-600 rounded-lg">
+            <div className="inline-flex p-3 text-white bg-blue-600 rounded-lg">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="w-6 h-6"
@@ -196,6 +200,7 @@ export default function PerguntasFrequentes() {
                   d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
                 />
               </svg>
+              <h3 className="ml-2 font-bold">Inventário</h3>
             </div>
 
             <div>

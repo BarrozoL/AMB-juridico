@@ -12,18 +12,21 @@ import casaPreta from "../assets/images/icone-casa-preta-areas-atuacao.png";
 const areas = [
   {
     icon: casaPreta,
+    slug: "/imobiliario",
     title: "Direito Imobiliário",
     description:
       "Assessoria e regularização de imóveis, elaboração de contratos de compra e venda, locação e financiamento.",
   },
   {
     icon: marteloBranco,
+    slug: "/inventario",
     title: "Inventário e Sucessões",
     description:
       "Planejamento sucessório, condução de inventários judiciais e extrajudiciais e resolução de conflitos familiares.",
   },
   {
     icon: livroPreto,
+    slug: "/",
     title: "Direito Tributário",
     description:
       "Suporte jurídico para evitar abusos e garantir que os tributos sejam cobrados dentro dos limites da lei.",
@@ -33,18 +36,6 @@ const areas = [
     title: "Execução Fiscal",
     description: "Defesa na execução fiscal.",
   },
-  /*  {
-    icon: marteloPreto,
-    title: "Direito de Família",
-    description:
-      "Divórcio, guarda, pensão e outras questões familiares delicadas.",
-  },
-  {
-    icon: iconeLivro,
-    title: "Direito Previdenciário",
-    description:
-      "Aposentadoria, benefícios do INSS e revisão de cálculos previdenciários.",
-  }, */
 ];
 
 export default function PracticeAreasCarousel() {
@@ -131,15 +122,17 @@ export default function PracticeAreasCarousel() {
                       {area.description}
                     </p>
 
-                    <button
-                      className={`mt-8 cursor-pointer font-semibold px-4 py-2 rounded transition-colors ${
-                        i % 2 === 0
-                          ? "bg-[rgba(37,49,85,1)] hover:bg-[rgb(50,78,161)] text-white"
-                          : "bg-white hover:bg-gray-200 text-gray-800"
-                      }`}
-                    >
-                      Saiba Mais
-                    </button>
+                    <a href={area.slug}>
+                      <button
+                        className={`mt-8 cursor-pointer font-semibold px-4 py-2 rounded transition-colors ${
+                          i % 2 === 0
+                            ? "bg-[rgba(37,49,85,1)] hover:bg-[rgb(50,78,161)] text-white"
+                            : "bg-white hover:bg-gray-200 text-gray-800"
+                        }`}
+                      >
+                        Saiba Mais
+                      </button>
+                    </a>
                   </div>
                 </div>
               ))}
