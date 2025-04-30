@@ -10,7 +10,6 @@ import Juridico from "./pages/Juridico";
 import HomePage from "./pages/HomePage";
 import Inventario from "./pages/Inventario";
 import AreasDeAtuacao from "./pages/AreasDeAtuaçao";
-import Equipe from "./pages/Equipe";
 
 import EscrituraDefinitivaNegada from "./pages/EscrituraDefinitivaNegada";
 import ExecuçaoFiscal from "./pages/ExecuçaoFiscal";
@@ -42,7 +41,7 @@ function App() {
         <Route exact path="/" element={<HomePage />} />
         <Route exact path="/quem-somos" element={<QuemSomos />} />
         <Route exact path="/areas-de-atuacao" element={<AreasDeAtuacao />} />
-        <Route exact path="/equipe" element={<Equipe />} />
+
         <Route exact path="/inventario" element={<Inventario />} />
 
         <Route exact path="/execuçao-fiscal" element={<ExecuçaoFiscal />} />
