@@ -20,10 +20,7 @@ const navItems = [
     label: "Quem Somos",
     path: "/quem-somos",
     dropdown: true,
-    subItems: [
-      { label: "Sobre a empresa", path: "/quem-somos" },
-      { label: "Equipe", path: "/equipe" },
-    ],
+    subItems: [{ label: "Sobre a empresa", path: "/quem-somos" }],
   },
   {
     label: "Execução Fiscal",
