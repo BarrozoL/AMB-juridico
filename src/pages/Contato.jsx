@@ -68,7 +68,7 @@ export default function ContatoPage() {
         {/* ===== formulário ===== */}
         <div className="bg-gray-100 p-8 rounded-lg shadow-md">
           <form
-            action="https://formspree.io/f/xpwdznyl"
+            action="https://formspree.io/f/mkgrjjvj"
             method="POST"
             className="space-y-4"
           >

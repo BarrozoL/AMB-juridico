@@ -5,7 +5,6 @@ export default function QuemSomos() {
     <>
       <div className="grid grid-cols-1 md:grid-cols-1 gap-8">
         <div className="w-full max-w-5xl mx-auto px-11 py-8">
-          {/* Hero Section */}
           <header className="text-center bg-gradient-to-r from-[#005f40] to-[#253155] text-white py-16 rounded-md mb-10">
             <h1 className="text-3xl md:text-4xl font-bold mb-2">Quem Somos</h1>
             <p className="text-base md:text-lg opacity-90">
@@ -13,7 +12,6 @@ export default function QuemSomos() {
             </p>
           </header>
 
-          {/* Content Section: Nossa História */}
           <section className="bg-white rounded-md p-6 mb-8 shadow-md">
             <h2 className="text-2xl text-[#253155] font-bold mb-4">
               Nossa História
@@ -27,15 +25,19 @@ export default function QuemSomos() {
               extrajudiciais.
             </p>
             <p className="mb-4 text-justify">
-              Especializado nas áreas imobiliária, registral, empresarial,
-              cível, trabalhista e administrativa, dispomos de um departamento
-              exclusivo para perícias técnicas. Somos um grupo formado por
-              advogados especializados e com larga experiência jurídica.
+              Accacio Monteiro Barrozo é o sócio fundador do escritório,
+              pós-graduado em Direito Imobiliário pela Escola da Magistratura do
+              Estado do Rio de Janeiro (Emerj), Direito da Empresa e da Economia
+              pela Fundação Getúlio Vargas e Direito Processual Civil pela
+              Universidade Cândido Mendes. Além disso, é bacharel em
+              Administração de Empresas.
             </p>
             <p className="mb-4 text-justify">
-              Graças à liderança e ao conhecimento adquiridos ao longo desse
-              trajeto, nossa equipe se mantém vitoriosa nas diversas áreas em
-              que atua.
+              Sob a gestão de seu sócio fundador, o escritório conta com uma
+              equipe jurídica multidisciplinar, oferecendo serviços de
+              excelência, desde 1996, nas áreas imobiliária, registral,
+              inventário e sucessões e Direito Tributário, focado na defesa dos
+              contribuintes nas execuções fiscais.
             </p>
           </section>
 

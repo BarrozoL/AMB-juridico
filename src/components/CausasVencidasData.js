@@ -1,3 +1,8 @@
+import imagemPrediosStock from "../assets/images/predios-stock.jpg";
+import imagemMoedasStock from "../assets/images/moedas-stock.jpg";
+import imagemEstatuaStock from "../assets/images/estatua-stock.png";
+import imagemMarteloStock from "../assets/images/martelo-stock.png";
+
 export const causasVencidas = [
   {
     id: 1,
@@ -20,7 +25,7 @@ export const causasVencidas = [
     Entre em contato conosco.`,
     categoria: "Artigo",
     data: "11 de julho de 2019",
-    imagem: "",
+    imagem: imagemMoedasStock,
   },
 
   {
@@ -60,13 +65,13 @@ export const causasVencidas = [
     Obs.: * Nomes dos autores do processo suprimidos para resguardar a identidade dos clientes.`,
     categoria: "Artigo",
     data: "10 de julho de 2019",
-    imagem: "",
+    imagem: imagemPrediosStock,
   },
   {
     id: 3,
     slug: "mrv-e-sentenciada-devolver-investimento-do-mutuario-por-atraso-na-entrega-das-chaves-e-pagar-danos-materiais",
     titulo:
-      "MRV é sentenciada a devolver investimento do mutuário por atraso na entrega das chaves e pagar danos materiais",
+      "MRV sentenciada a devolver investimento do mutuário por atraso na entrega das chaves e pagar danos materiais",
     excerpt:
       "A 24ª Vara Federal condenou a MRV a restituir todos os valores investidos pelo mutuário, corrigido monetariamente, que não recebeu a o imóvel pronto na data acordada, descrita no contrato estipulado pela construtora...",
     texto: `Nº do Processo: 2015.51.01.034841-5
@@ -85,7 +90,7 @@ II) JULGO PROCEDENTE O PEDIDO, para condenar as Rés, de forma solidária, ao pa
 Custas na forma da Lei nº 9.289/96, ressaltando-se a gratuidade de justiça que ora defiro aos Autores. Face à sucumbência mínima dos Autores, condeno solidariamente as Rés ao pagamento de honorários advocatícios, que, com fulcro no art. 85, §2º, do CPC, ora arbitro em 10% (dez por cento) do valor da condenação.`,
     categoria: "Artigo",
     data: "16 de julho de 2018",
-    imagem: "",
+    imagem: imagemMarteloStock,
   },
   {
     id: 4,
@@ -112,6 +117,6 @@ Custas na forma da Lei nº 9.289/96, ressaltando-se a gratuidade de justiça que
   `,
     categoria: "Artigo",
     data: "16 de julho de 2018",
-    imagem: "",
+    imagem: imagemEstatuaStock,
   },
 ];

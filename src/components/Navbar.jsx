@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import logoPequeno from "../assets/images/logo-amb-pequeno.png";
+import logoPequeno from "../assets/images/AMB-logo.png";
 import TabletNav from "../components/TabletNav";
 
 /**
@@ -222,7 +222,7 @@ export default function Navbar() {
           <img
             src={logoPequeno}
             alt="AMB Logo"
-            className="max-w-[7em] object-contain"
+            className="max-w-[10em] object-contain"
           />
         </a>
 
