@@ -6,7 +6,6 @@ import Footer from "./components/Footer";
 
 //Pages:
 import QuemSomos from "./pages/QuemSomos";
-import Juridico from "./pages/Juridico";
 import HomePage from "./pages/HomePage";
 import Inventario from "./pages/Inventario";
 import AreasDeAtuacao from "./pages/AreasDeAtuaçao";
@@ -70,8 +69,6 @@ function App() {
           path="/escritura-definitiva-negada"
           element={<EscrituraDefinitivaNegada />}
         />
-
-        <Route exact path="/juridico" element={<Juridico />} />
 
         <Route exact path="/blog-amb" element={<BlogAmb />} />
         <Route path="/blog/:slug" element={<BlogPostsAmb />} />

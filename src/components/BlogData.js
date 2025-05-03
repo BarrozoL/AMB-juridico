@@ -1,4 +1,12 @@
 import imagemRio from "../assets/images/Rio-de-Janeiro-orla-noite.webp";
+import imagemBalançaMarteloStock from "../assets/images/balanca-martelo-stock.png";
+import imagemBondinho from "../assets/images/bondinho-stock.jpg";
+import imagemCidadeNoite from "../assets/images/cidade-noite-stock.jpg";
+import imagemEstatuaBalança from "../assets/images/estatua-e-balança.jpg";
+
+import imagemMarteloStock from "../assets/images/martelo-stock.png";
+
+import imagemPessoaEscrevendo from "../assets/images/pessoa-escrevendo.png";
 
 export const blogPosts = [
   {
@@ -23,7 +31,7 @@ export const blogPosts = [
       "Já que atualmente o assunto acerca do distrato já é tratado em lei específica, pode-se afirmar com certeza que é possível a solicitação de distrato mesmo estando inadimplente. Isto porque, em compra e venda de imóveis a aquisição é realizada através da alienação fiduciária, um meio de financiamento pelo qual o objeto do contrato fica em garantia das prestações a serem pagas. Desse modo, em caso de inadimplência, o contrato poderá ser resolvido apenas com a devolução do imóvel para a instituição financeira responsável. Nesse caso, o objeto do contrato será vendido, de modo que a instituição quite as parcelas em atraso e o saldo positivo seja de propriedade do então comprador.",
     categoria: "Direito Imobiliário",
     data: "16 de março de 2020",
-    imagem: "",
+    imagem: imagemBalançaMarteloStock,
   },
   {
     id: 3,
@@ -35,7 +43,7 @@ export const blogPosts = [
       "O distrato, como já observado no post anterior, recebeu lei específica a partir de 2018, e é nela que estão previstos todos os requisitos e ferramentas de como será exercido o distrato de imóvel. Mas e quando o comprador e vendedor se vê em uma situação em que não deseja mais continuar o contrato e resolve fazer um distrato, a grande dúvida é em como realizá-la e em quais hipóteses poderá realizá-la. Em caso de desistência, a multa já estará estipulada em contrato, e caso contrário, poderá ser aplicada multa de até 50% caso o imóvel estiver incluído no regime de patrimônio de afetação, ou seja, aqueles que não estão registrados como patrimônio da construtora, mas que tenham CNPJ e contabilidade próprios. Agora, se o imóvel estiver inscrito no nome da construtora, a multa a ser cobrada poderá atingir até 25%. Porém, o que se busca nesses casos, é uma devolução da integralidade do valor investido ou próximo à integralidade, de modo que, a multa por distrato venha a ser mínima. O prazo e valor para devolução seguirá alguns requisitos: Se o comprador desistir da compra do imóvel no regime de patrimônio de afetação, os valores serão devolvidos até 30 após o habite-se. Não sendo este o caso, o pagamento da devolução será feito em até 180 dias depois de desfeito o negócio. Se o imóvel devolvido venha a ser revendido pela construtora antes do fim do prazo para devolução do dinheiro, o pagamento será antecipado: deve ser feito até 30 dias após a nova venda. O mais comum dos prazos é a revolução do contrato por atraso na entrega pela construtora. Ocorrendo isso, a empresa deverá resolver o contrato em até 180 dias para extrapolar o prazo de entrega. Já o termo de arrependimento está previsto pela nova lei e diz respeito a compras realizadas em estandes de venda ou fora da sede do incorporador. Nesses casos, o comprador tem até sete dias para desistir do negócio e receber de volta os valores pagos, incluindo corretagem. Portanto, se ainda tem dúvidas sobre o assunto, entre em contato conosco que estaremos prontos para lhe atender!",
     categoria: "Direito Imobiliário",
     data: "9 de março de 2020",
-    imagem: "",
+    imagem: imagemBondinho,
   },
   {
     id: 4,
@@ -76,7 +84,7 @@ A matéria, que até então sempre foi definida pelo Judiciário, agora já ganh
 Uma das novas inserções previstas por lei e que afetará e muito o bolso dos compradores, diz respeito à multa que agora poderá ser estipulada em até 50% (a depender de acordo em contrato), podendo sim ser diminuída. Sendo assim, em casos de distrato o que se busca em nome do comprador é a devolução de 80% a 100% daquilo que já foi investido, de modo que a multa seja reduzida a 20% ou menos.`,
     categoria: "Notícias",
     data: "2 de março de 2020",
-    imagem: "",
+    imagem: imagemEstatuaBalança,
   },
 
   {
@@ -130,7 +138,7 @@ A prática é ilegal e o consumidor tem dois caminhos: não pagar a cota e notif
 Todo folheto folder (folheto) e prospecto do empreendimento deve ser guardado para que ser comparado posteriormente quando a obra estiver concluída. Facilidades e isenções prometidas e descritas no contrato devem ser examinadas e exigidas na entrega das chaves. Caso alguma coisa que tenha sido ofertada não for cumprida, pode ser cobrada na Justiça.`,
     categoria: "Artigo",
     data: "15 de agosto de 2018",
-    imagem: "",
+    imagem: imagemMarteloStock,
   },
   {
     id: 10,
@@ -162,7 +170,7 @@ Nestes casos, o ideal é que os mutuários procurem especialistas para que seja 
 Na hora de comprar o seu imóvel, fique atento a todas as cláusulas do contrato de financiamento. Se possível, antes de fechar negócio, faça os cálculos com um contador ou profissional que tenhaalienacao alienacao-fiduciaria atraso na entrega das chaves calcada CEF cobranca condomínio construtora Danos materiais Danos Morais desistência do imóvel devedor Distrato Distrato de compra do imóvel distrato de imóvel Financiamento leilao MRV pdg pdg prestaçao prestacao-em-atraso Proprietário Prorrogação sa expertise em finanças deste tipo. É melhor gastar um tempo maior planejando e estudando o pacto a ser firmado com a instituição financeira do que gastar suas economias durante muito tempo e ter uma surpresa desagradável no final.`,
     categoria: "Artigo",
     data: "3 de julho de 2018",
-    imagem: "",
+    imagem: imagemPessoaEscrevendo,
   },
 
   {

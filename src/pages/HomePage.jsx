@@ -7,7 +7,6 @@ import iconeThais from "../assets/images/imagem-review-thais-moraes-amb.png";
 import iconeDanielle from "../assets/images/imagem-review-danielle-lindenmeyer-amb.png";
 
 // Components
-import DonaHeroSection from "../components/DonaHeroSection";
 import HeroSection from "../components/HeroSection";
 import PracticeAreasCarousel from "../components/PracticeAreasCarroussel";
 import PerguntasFrequentes from "../components/PerguntasFrequentes";
@@ -15,12 +14,56 @@ import PerguntasFrequentes from "../components/PerguntasFrequentes";
 export default function HomePage() {
   return (
     <section className="relative w-full min-h-screen mb-16">
+      {/* ========== POPUP ========== */}
+      <div className="fixed inset-0 flex items-center justify-center bg-black/50 z-50">
+        <div className="relative bg-white rounded-lg shadow-lg p-6 max-w-sm w-full">
+          <button
+            className="absolute top-2 right-2 text-gray-500 cursor-pointer hover:text-gray-700"
+            onClick={() =>
+              (document.querySelector(".fixed").style.display = "none")
+            }
+          >
+            &#10005;
+          </button>
+          <h2 className="text-lg text-center font-bold text-gray-800 mb-4">
+            🎉Comemorando 29 Anos de Excelência! 🎉
+          </h2>
+          <p className="text-justify text-gray-600">
+            Em celebração ao nosso 29º aniversário, estamos muito felizes em
+            apresentar o novo design do nosso website! 🎉 Confira a nossa nova
+            cara e aproveite para explorar os nossos serviços!
+          </p>
+          <div className="w-full h-[2px] bg-blue-500 my-4"></div>
+          <p className="text-justify text-gray-600 mt-4">
+            🔒 Atenção: Este escritório realiza contatos apenas pelos telefones
+          </p>
+          <ul className="text-justify text-gray-600 mb-2">
+            <li> (21) 3506-4713</li>
+            <li>(21) 99881-0061</li>
+          </ul>
+          <p className="text-justify text-gray-600 mb-2">e pelos e-mails:</p>
+          <ul className="text-justify text-gray-600 mb-2">
+            <li>financeiro@accaciobarrozo.com.br</li>
+            <li>juridico@accaciobarrozo.com.br</li>
+          </ul>
+          <p className="text-justify text-gray-600 mb-2">
+            🛡️ Confirme a identidade do seu advogado na plataforma digital
+            disponibilizada pela OAB em: {""}
+          </p>
+          <a
+            className="text-blue-700 underline"
+            href="https://confirmadv.oab.org.br/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            confirmadv.oab.org.br
+          </a>
+        </div>
+      </div>
       {/* ========== HERO SECTION ========== */}
       <HeroSection />
-
       {/* ========== PRACTICE AREAS SECTION ========== */}
       <PracticeAreasCarousel />
-
       {/* ========== EXPERIENCE & STATS SECTION ========== */}
       <section className="bg-gray-100 py-15">
         <div className="max-w-6xl mx-auto px-4 text-center">
@@ -64,7 +107,6 @@ export default function HomePage() {
           </div>
         </div>
       </section>
-
       <section className="bg-white py-16">
         <div className="max-w-6xl mx-auto px-4 text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-8">
@@ -175,11 +217,8 @@ export default function HomePage() {
           </a>
         </div>
       </section>
-
-      {/* ========== PERGUNTAS FREQUENTES SECTION ========== */}
-
+      {/* ========== PERGUNTAS FREQUENTES ========== */}
       <PerguntasFrequentes />
-
       {/* confidence section */}
       <section className="relative w-full bg-white py-16">
         <div className="max-w-6xl mx-auto px-4 md:px-6 lg:px-8 grid md:grid-cols-2 gap-8 items-center">
@@ -217,20 +256,6 @@ export default function HomePage() {
               alt="Imagem advogado Accacio Barrozo"
               className="max-w-[21em] sm:max-w-[24em] object-cover rounded shadow-lg"
             />
-
-            {/* Overlay box, adjust position as needed */}
-            {/*  <div
-              className="absolute flex items-center justify-center bg-white shadow-md border border-gray-200 rounded p-6"
-              style={{ top: "10%", right: "-5%" }}
-            >
-              <div className="flex flex-col items-center text-gray-800">
-                <span className="text-4xl font-bold">30</span>
-                <span className=" text-center">
-                  anos de experiência <br />
-                  jurídica
-                </span>
-              </div>
-            </div> */}
           </div>
         </div>
       </section>

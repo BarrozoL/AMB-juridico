@@ -9,9 +9,48 @@ export default function ExecuçaoFiscal() {
       <main className="w-full max-w-4xl mx-auto px-4 ">
         <section className="my-10 text-left">
           <h2 className="text-[#253155] text-[2rem] mb-3 border-b-2 border-[#253155] pb-1">
-            Defendemos você na Execução Fiscal
+            Direito Tributário – Defesa do Contribuinte em Execuções Fiscais:
+            Proteção Contra Cobranças Indevidas de IPTU
           </h2>
-          <p className="mb-10 text-justify leading-relaxed">
+          <p className="mb-4 text-justify leading-relaxed">
+            A cobrança do{" "}
+            <strong>Imposto Predial e Territorial Urbano (IPTU)</strong> é uma
+            obrigação recorrente para proprietários de imóveis, mas nem sempre
+            ocorre de forma justa e correta. Muitos contribuintes se deparam com
+            valores excessivos, erros de cálculo ou cobranças indevidas que
+            podem resultar em execuções fiscais movidas pelas Prefeituras.
+            Nessas situações, contar com uma defesa jurídica especializada faz
+            toda a diferença.
+          </p>
+          <p className="mb-2 text-justify leading-relaxed">
+            Nosso escritório atua na proteção dos direitos do contribuinte,
+            oferecendo suporte jurídico para evitar abusos e garantir que os
+            tributos sejam cobrados dentro dos limites da lei. Entre nossas
+            principais atividades estão:
+          </p>
+          <ul className="list-disc list-inside mb-4">
+            <li className="mb-2">
+              <strong>Revisão e contestação de valores abusivos:</strong>{" "}
+              analisamos a base de cálculo do IPTU e identificamos possíveis
+              distorções que oneram injustamente o contribuinte.
+            </li>
+            <li className="mb-2">
+              <strong>Defesa em execuções fiscais:</strong> atuamos na anulação
+              de cobranças indevidas, evitando bloqueios patrimoniais e
+              garantindo que os contribuintes tenham um processo justo.
+            </li>
+            <li className="mb-2">
+              <strong>Negociação e parcelamento:</strong> buscamos alternativas
+              para regularizar a situação fiscal do cliente, evitando prejuízos
+              financeiros e garantindo acordos vantajosos.
+            </li>
+            <li className="mb-2">
+              <strong>Recursos administrativos e judiciais:</strong> utilizamos
+              todas as medidas legais cabíveis para impedir cobranças
+              arbitrárias e proteger o patrimônio do contribuinte.
+            </li>
+          </ul>
+          <p className="mb-3 text-justify leading-relaxed">
             A execução fiscal é o processo judicial movido pelo Município para
             cobrar dívidas de Imposto sobre a Propriedade Predial e Territorial
             Urbana (IPTU) não pagas pelos contribuintes.
@@ -100,9 +139,14 @@ export default function ExecuçaoFiscal() {
             execução fiscal pode ser complexo e, em momentos delicados, é
             fundamental contar com a assessoria jurídica adequada.
           </p>
-          <button className="cta-button bg-[rgba(37,49,85,1)] hover:bg-[rgb(50,78,161)] text-white font-semibold px-6 py-3 rounded-full transition-colors">
-            Fale com o especialista
-          </button>
+          <a
+            href="https://api.whatsapp.com/send/?phone=5521999684428&text&type=phone_number&app_absent=0"
+            target="_blank"
+          >
+            <button className="cta-button cursor-pointer bg-[rgba(37,49,85,1)] hover:bg-[rgb(50,78,161)] text-white font-semibold px-6 py-3 rounded-full transition-colors">
+              Fale com o especialista
+            </button>
+          </a>
         </section>
       </main>
 
