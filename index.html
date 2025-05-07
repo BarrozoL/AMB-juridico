@@ -9,6 +9,34 @@
     />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>AMB Escritório Jurídico</title>
+
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-WG88SB3PGD"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+
+      // 1. Define o estado de consentimento padrão (Consent Mode v2)
+      // Bloqueia o armazenamento de dados analíticos e de anúncios por padrão.
+      gtag("consent", "default", {
+        ad_storage: "denied",
+        analytics_storage: "denied",
+        ad_user_data: "denied",
+        ad_personalization: "denied",
+        wait_for_update: 500, // Opcional: aguarda até 500ms por um comando 'consent update'
+      });
+
+      // 2. Carrega o gtag.js e envia a configuração inicial
+      // Esta chamada 'config' respeitará o estado de consentimento definido acima.
+      // Se 'analytics_storage' estiver 'denied', poderá enviar "pings" anônimos ou com dados limitados.
+      // Se estiver 'granted', enviará dados completos.
+      gtag("js", new Date());
+      gtag("config", "G-WG88SB3PGD");
+    </script>
   </head>
   <body>
     <div id="root"></div>
