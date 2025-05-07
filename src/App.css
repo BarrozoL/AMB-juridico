@@ -1,8 +1,5 @@
 @import "tailwindcss";
 
-html,
-body {
-}
 
 @keyframes fadeIn {
   from {
