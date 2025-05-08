@@ -24,11 +24,10 @@ export default function PopUp() {
         </p>
         <div className="w-full h-[2px] bg-blue-500 my-4"></div>
         <p className="text-justify text-gray-600 mt-4">
-          🔒 Atenção: Este escritório realiza contatos apenas pelos telefones
+          🔒 Atenção: Este escritório realiza contatos apenas pelo telefone
         </p>
         <ul className="text-justify text-gray-600 mb-2">
-          <li> (21) 3506-4713</li>
-          <li>(21) 99881-0061</li>
+          <li> (21) 99968-4428</li>
         </ul>
         <p className="text-justify text-gray-600 mb-2">e pelos e-mails:</p>
         <ul className="text-justify text-gray-600 mb-2">
