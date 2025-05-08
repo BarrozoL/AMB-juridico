@@ -19,8 +19,8 @@ export default function PopUp() {
         </h2>
         <p className="text-justify text-gray-600">
           Em celebração ao nosso 29º aniversário, estamos muito felizes em
-          apresentar o novo design do nosso website! 🎉 Confira a nossa nova
-          cara e aproveite para explorar os nossos serviços!
+          apresentar o novo design do nosso website! 🎉 Confira o nosso novo
+          site e aproveite para explorar os nossos serviços!
         </p>
         <div className="w-full h-[2px] bg-blue-500 my-4"></div>
         <p className="text-justify text-gray-600 mt-4">

@@ -1,4 +1,5 @@
 import { useState } from "react";
+import ReactGA from "react-ga4";
 
 export default function AtrasoNaEntrega() {
   const [isLeiOpen, setIsLeiOpen] = useState(true);
@@ -7,7 +8,24 @@ export default function AtrasoNaEntrega() {
   const toggleLeiSection = () => setIsLeiOpen((prev) => !prev);
   const toggleCasoSection = () => setIsCasoOpen((prev) => !prev);
 
-  /*   bg-gradient-to-r from-[#005f40] to-[#253155] */
+  const handleWhatsAppClickAnalytics = () => {
+    if (ReactGA.isInitialized) {
+      // Enviar o evento para o Google Analytics
+      ReactGA.event("clique_botao_whatsapp", {
+        // Nome do seu evento personalizado
+        pagina_origem: "Atraso na Entrega da Obra", // Identifica a página/contexto
+        texto_botao: "Fale com o especialista", // Texto do botão clicado
+        tipo_contato: "whatsapp", // Tipo de contato iniciado
+      });
+      console.log(
+        "Evento 'clique_botao_whatsapp' enviado para GA4. Página: Atraso na Entrega da Obra"
+      );
+    } else {
+      console.warn(
+        "ReactGA não está inicializado. Evento 'clique_botao_whatsapp' não foi enviado."
+      );
+    }
+  };
 
   return (
     <>
@@ -141,7 +159,10 @@ export default function AtrasoNaEntrega() {
           )}
         </section>
         <a href="https://api.whatsapp.com/send/?phone=5521999684428&text&type=phone_number&app_absent=0">
-          <button className="bg-[#253155] cursor-pointer hover:bg-blue-700 text-white font-bold py-2 px-4 rounded transition-colors duration-300">
+          <button
+            onClick={handleWhatsAppClickAnalytics}
+            className="bg-[#253155] cursor-pointer hover:bg-blue-700 text-white font-bold py-2 px-4 rounded transition-colors duration-300"
+          >
             Fale com o especialista
           </button>
         </a>
