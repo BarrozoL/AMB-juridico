@@ -322,8 +322,8 @@
       "permanent": true
     },
     {
-      "source": "/quem-somos",
-      "destination": "/rodrigo-rodrigues-correa/",
+      "source": "/rodrigo-rodrigues-correa/",
+      "destination": "/quem-somos",
       "permanent": true
     },
     {
