@@ -8,7 +8,7 @@ import casaPreta from "../assets/images/icone-casa-preta-areas-atuacao.png";
 const areas = [
   {
     icon: casaPreta,
-    slug: "/imobiliario",
+    slug: "/direito-imobiliario",
     title: "Direito Imobiliário",
     description:
       "Assessoria e regularização de imóveis, elaboração de contratos de compra e venda, locação e financiamento.",

@@ -104,7 +104,7 @@ function App() {
         <Route exact path="/execuçao-fiscal" element={<ExecuçaoFiscal />} />
 
         {/* Routes Imobiliário: */}
-        <Route exact path="/imobiliario" element={<Imobiliario />} />
+        <Route exact path="/direito-imobiliario" element={<Imobiliario />} />
         <Route exact path="/defeito-na-obra" element={<DefeitoNaObra />} />
         <Route
           exact
