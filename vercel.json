@@ -222,11 +222,6 @@
       "permanent": true
     },
     {
-      "source": "/julgo-procedente-em-parte-o-pedido-formulado-nos-autos-da-acao-de-rito-ordinario-condenando-a-cef/",
-      "destination": "/blog-amb",
-      "permanent": true
-    },
-    {
       "source": "/direito-empresarial/",
       "destination": "/areas-de-atuacao",
       "permanent": true
@@ -432,7 +427,7 @@
       "permanent": true
     },
     {
-      "source": "request-consultation//",
+      "source": "/request-consultation/",
       "destination": "/contato",
       "permanent": true
     },
@@ -567,52 +562,47 @@
       "permanent": true
     },
     {
-      "source": "/categoria/:path(.*)",
+      "source": "/categoria/:path*",
       "destination": "/blog-amb",
       "permanent": true
     },
     {
-      "source": "/category/:path(.*)",
+      "source": "/category/:path*",
       "destination": "/blog-amb",
       "permanent": true
     },
     {
-      "source": "/type/:path(.*)",
+      "source": "/type/:path*",
       "destination": "/blog-amb",
       "permanent": true
     },
     {
-      "source": "/portfolio/:path(.*)",
+      "source": "/portfolio/:path*",
       "destination": "/blog-amb",
       "permanent": true
     },
     {
-      "source": "/author/:path(.*)",
+      "source": "/author/:path*",
       "destination": "/blog-amb",
       "permanent": true
     },
     {
-      "source": "/tags/:path(.*)",
+      "source": "/tags/:path*",
       "destination": "/blog-amb",
       "permanent": true
     },
     {
-      "source": "/2017/:path(.*)",
+      "source": "/2017/:path*",
       "destination": "/blog-amb",
       "permanent": true
     },
     {
-      "source": "/2018/:path(.*)",
+      "source": "/2018/:path*",
       "destination": "/blog-amb",
       "permanent": true
     },
     {
-      "source": "/2019/:path(.*)",
-      "destination": "/blog-amb",
-      "permanent": true
-    },
-    {
-      "source": "/2020/:path(.*)",
+      "source": "/2019/:path*",
       "destination": "/blog-amb",
       "permanent": true
     }
