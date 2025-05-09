@@ -16,7 +16,7 @@
       "permanent": true
     },
     {
-      "source": "/juros-abusivos-no-financiamento-do-imovel/",
+      "source": "/juros-abusivos-no-financiamento-do-imovel",
       "destination": "/blog-amb",
       "permanent": true
     },
@@ -538,6 +538,26 @@
     },
     {
       "source": "/aside/",
+      "destination": "/blog-amb",
+      "permanent": true
+    },
+    {
+      "source": "/acao-declaratoria-de-quitacao-cef-caixa-economica-federal",
+      "destination": "/causas-vencidas/cef-e-condenada-pagar-r-20-000-de-danos-morais-por-anatocismo",
+      "permanent": true
+    },
+    {
+      "source": "/dinheiro-no-exterior-nao-declarado",
+      "destination": "/blog-amb",
+      "permanent": true
+    },
+    {
+      "source": "/banco-e-obrigado-a-pagar-diferenca-em-deposito-no-caixa-eletronico",
+      "destination": "/causas-vencidas",
+      "permanent": true
+    },
+    {
+      "source": "/qual-valor-de-aluguel",
       "destination": "/blog-amb",
       "permanent": true
     },
