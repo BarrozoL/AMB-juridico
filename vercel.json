@@ -227,11 +227,6 @@
       "permanent": true
     },
     {
-      "source": "/inventario/politica-de-privacidade.html?v19",
-      "destination": "/inventario",
-      "permanent": true
-    },
-    {
       "source": "/privacy-settings-page/",
       "destination": "/quem-somos",
       "permanent": true
