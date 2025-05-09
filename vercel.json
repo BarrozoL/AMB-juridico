@@ -1,3 +1,42 @@
 {
+  "redirects": [
+    {
+      "source": "/distrato/",
+      "destination": "/distrato-de-compra-do-imovel",
+      "permanent": true
+    },
+    {
+      "source": "/como-uma-boa-administradora-de-imoveis-deve-atuar/",
+      "destination": "/blog-amb",
+      "permanent": true
+    },
+    {
+      "source": "/dinheiro-no-exterior-nao-declarado/",
+      "destination": "/blog-amb",
+      "permanent": true
+    },
+    {
+      "source": "/juros-abusivos-no-financiamento-do-imovel/",
+      "destination": "/blog-amb",
+      "permanent": true
+    },
+    { "source": "/about/", "destination": "/quem-somos", "permanent": true },
+    {
+      "source": "/julgou-parcialmente-procedente-o-pedido-condenando-a-re-a-proceder-desde-o-inicio-do-financiamento-a-revisao/",
+      "destination": "/causas-vencidas",
+      "permanent": true
+    },
+    {
+      "source": "/banco-bradesco-devera-fornecer-documentos-em-10-dias-sob-pena-aplicacao-multa-r-5000-cinquenta-reais-por-dia/",
+      "destination": "/causas-vencidas",
+      "permanent": true
+    },
+    {
+      "source": "/category/:path(.*)",
+      "destination": "/blog-amb",
+      "permanent": true
+    }
+  ],
+
   "rewrites": [{ "source": "/(.*)", "destination": "/" }]
 }

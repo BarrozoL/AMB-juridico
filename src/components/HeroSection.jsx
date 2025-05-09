@@ -14,7 +14,7 @@ const heroText = [
     title: `Expertise Para Tomar Decisões Imobiliárias com Confiança!`,
     subtitle:
       "Somos referência no Direito Imobiliário, atuando no cenário jurídico desde 1996, defendendo o patrimônio de nossos clientes, recuperando o investimento realizado e oferecendo suporte estratégico para tornar cada compra de imóvel uma experiência segura e transparente.",
-    slug: "/imobiliario",
+    slug: "/direito-imobiliario",
     highlight: ["Tomar", "Decisões"],
   },
   {

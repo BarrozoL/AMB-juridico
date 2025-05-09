@@ -29,7 +29,7 @@ const navItems = [
   },
   {
     label: "Imobiliário",
-    path: "/imobiliario",
+    path: "/direito-imobiliario",
     dropdown: true,
     subItems: [
       {
