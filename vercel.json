@@ -32,7 +32,587 @@
       "permanent": true
     },
     {
+      "source": "/inspirational-video/",
+      "destination": "/blog-amb",
+      "permanent": true
+    },
+    {
+      "source": "/attorneys/",
+      "destination": "/blog-amb",
+      "permanent": true
+    },
+    {
+      "source": "/alugar-imoveis/",
+      "destination": "/blog-amb",
+      "permanent": true
+    },
+    {
+      "source": "/codigo-tributario-nacional-lei-5-172-de-25-out-1966-atualizado12-04-2017/",
+      "destination": "/blog-amb",
+      "permanent": true
+    },
+    {
+      "source": "/equipe/",
+      "destination": "/quem-somos",
+      "permanent": true
+    },
+    {
+      "source": "/cef-e-condenada-pagar-r-20-000-de-danos-morais-por-anatocismo/",
+      "destination": "/causas-vencidas/cef-e-condenada-pagar-r-20-000-de-danos-morais-por-anatocismo",
+      "permanent": true
+    },
+    {
+      "source": "/taxa-sati/",
+      "destination": "/blog-amb",
+      "permanent": true
+    },
+    {
+      "source": "/julgo-procedente-em-parte-o-pedido-formulado-nos-autos-da-acao-de-rito-ordinario-condenando-a-cef/",
+      "destination": "/causas-vencidas",
+      "permanent": true
+    },
+    {
+      "source": "/devolucao-de-imovel/",
+      "destination": "/devoluçao-de-imovel",
+      "permanent": true
+    },
+    {
+      "source": "/direito-tributario/",
+      "destination": "/inventario",
+      "permanent": true
+    },
+    {
+      "source": "/entrevista-com-doutor-accacio-barrozo-revista-fecomercio-sobre-falencia-e-concordata/",
+      "destination": "/blog-amb",
+      "permanent": true
+    },
+    {
+      "source": "/revisional-de-clausulas-contratuais-caixa-economica-federal-e-emgea-empresa-gestora-de-ativos/",
+      "destination": "/blog-amb",
+      "permanent": true
+    },
+    {
+      "source": "/campo-grande-rj-construtora-condenada-a-pagar-r-8-00000-por-danos-morais-ao-comprador-por-nao-registrar-o-imovel/",
+      "destination": "/causas-vencidas",
+      "permanent": true
+    },
+    {
+      "source": "/direito-imobiliario-problemas-com-obrasconstrutoras/",
+      "destination": "/direito-imobiliario",
+      "permanent": true
+    },
+    {
+      "source": "/qual-valor-de-aluguel/",
+      "destination": "/blog-amb",
+      "permanent": true
+    },
+    {
+      "source": "/atraso-na-entrega-das-chaves-do-seu-imovel/",
+      "destination": "/blog-amb",
+      "permanent": true
+    },
+    {
+      "source": "/defeito-obra/",
+      "destination": "/defeito-na-obra",
+      "permanent": true
+    },
+    {
+      "source": "/acao-declaratoria-de-quitacao-cef-caixa-economica-federal/",
+      "destination": "/causas-vencidas/cef-e-condenada-pagar-r-20-000-de-danos-morais-por-anatocismo",
+      "permanent": true
+    },
+    {
+      "source": "/defiro-suspendendo-realizacao-1o-eou-2o-leilao-para-serem-realizados-em-08-02-2010-e-01-03-2010/",
+      "destination": "/causas-vencidas",
+      "permanent": true
+    },
+    {
+      "source": "/mais-uma-vitoria-de-nossos-clientes/",
+      "destination": "/causas-vencidas/mais-uma-vitoria-de-nossos-clientes",
+      "permanent": true
+    },
+    {
+      "source": "/8-cuidados-na-hora-de-comprar-um-imovel-na-planta/",
+      "destination": "/blog/8-cuidados-na-hora-de-comprar-um-imovel-na-planta",
+      "permanent": true
+    },
+    {
+      "source": "/direitos-do-cidadao/",
+      "destination": "/blog-amb",
+      "permanent": true
+    },
+    {
+      "source": "/banco-e-obrigado-a-pagar-diferenca-em-deposito-no-caixa-eletronico/",
+      "destination": "/causas-vencidas",
+      "permanent": true
+    },
+    {
+      "source": "/banco-do-brasil-eleva-taxa-para-credito-imobiliario/",
+      "destination": "/causas-vencidas",
+      "permanent": true
+    },
+    {
+      "source": "/partilha-de-heranca-entenda-mais-sobre-esse-processo/",
+      "destination": "/inventario",
+      "permanent": true
+    },
+    {
+      "source": "/dr-accacio-membro-aip-associacao-industrial-portuguesa-novas-parcerias-em-portugal/",
+      "destination": "/causas-vencidas",
+      "permanent": true
+    },
+    {
+      "source": "/bate-papo-morar-bem-o-globo-241113/",
+      "destination": "/causas-vencidas",
+      "permanent": true
+    },
+    {
+      "source": "/acao-revisional-de-clausulas-contratuais-3/",
+      "destination": "/blog-amb",
+      "permanent": true
+    },
+    {
+      "source": "/acao-revisional-de-clausulas-contratuais-reu-banco-bradesco-sa/",
+      "destination": "/causas-vencidas",
+      "permanent": true
+    },
+    {
+      "source": "/julgo-parcialmente-procedente-o-pedido-determinar-o-cancelamento-do-registro-profissional-do-autor-a-partir-da-data-da-citacao/",
+      "destination": "/blog-amb",
+      "permanent": true
+    },
+    {
+      "source": "/distrato-de-compra-do-imovel-veja-os-mitos-sobre-o-assunto/",
+      "destination": "/blog/em-quais-casos-posso-fazer-um-distrato-de-imovel",
+      "permanent": true
+    },
+    {
+      "source": "/e-possivel-realizar-um-distrato-de-imovel-ainda-na-planta/",
+      "destination": "/blog/e-possivel-realizar-um-distrato-de-imovel-ainda-na-planta",
+      "permanent": true
+    },
+    {
+      "source": "/131299-jornal-do-commercio-cuidados-basicos-ao-financiar-imovel/",
+      "destination": "/blog-amb",
+      "permanent": true
+    },
+    {
+      "source": "/cef-caixa-economica-e-condenada-a-pagar-10-sobre-o-valor-atualizado-da-causa/",
+      "destination": "/causas-vencidas/cef-e-condenada-pagar-r-20-000-de-danos-morais-por-anatocismo",
+      "permanent": true
+    },
+    {
+      "source": "/inventario2020/",
+      "destination": "/inventario",
+      "permanent": true
+    },
+    {
+      "source": "/quote-2/",
+      "destination": "/blog-amb",
+      "permanent": true
+    },
+    {
+      "source": "/reconheco-o-direito-dos-autores-de-nao-terem-a-relacao-encargorenda-mensal-alterada-em-relacao-aos-futuros-encargos/",
+      "destination": "/blog-amb",
+      "permanent": true
+    },
+    {
+      "source": "/5-duvidas-frequentes-na-hora-de-pedir-o-distrato-de-imovel/",
+      "destination": "/blog/em-quais-casos-posso-fazer-um-distrato-de-imovel",
+      "permanent": true
+    },
+    {
+      "source": "/julgo-procedente-em-parte-o-pedido-formulado-nos-autos-da-acao-de-rito-ordinario-condenando-a-cef/",
+      "destination": "/blog-amb",
+      "permanent": true
+    },
+    {
+      "source": "/direito-empresarial/",
+      "destination": "/areas-de-atuacao",
+      "permanent": true
+    },
+    {
+      "source": "/inventario/politica-de-privacidade.html?v19",
+      "destination": "/inventario",
+      "permanent": true
+    },
+    {
+      "source": "/privacy-settings-page/",
+      "destination": "/quem-somos",
+      "permanent": true
+    },
+    {
+      "source": "/040599-jornal-do-commercio-o-pesadelo-dos-mutuarios-apos-quitar-o-financiamento/",
+      "destination": "/causas-vencidas",
+      "permanent": true
+    },
+    {
+      "source": "/armadilhas-do-s-f-h-jornal-do-commercio/",
+      "destination": "/causas-vencidas",
+      "permanent": true
+    },
+    {
+      "source": "/accacio-monteiro-barrozo/",
+      "destination": "/quem-somos",
+      "permanent": true
+    },
+    {
+      "source": "/preso-em-um-contrato-abusivo-com-sua-construtora-saiba-como-agir/",
+      "destination": "/blog-amb",
+      "permanent": true
+    },
+    {
+      "source": "/marica-a-cidade-fluminense-dos-bairros-planejados-jornal-o-fluminense-11213/",
+      "destination": "/causas-vencidas",
+      "permanent": true
+    },
+    {
+      "source": "/codigo-civil-lei-10-406-2002-atualizado-14-07-19/",
+      "destination": "/blog-amb",
+      "permanent": true
+    },
+    {
+      "source": "/construtoras-pode-devolver-ate-100-em-caso-de-distrato/",
+      "destination": "/posso-solicitar-um-distrato-mesmo-estando-inadimplente-ou-com-dificuldades-para-pagar-as-prestacoes",
+      "permanent": true
+    },
+    {
+      "source": "/como-funciona-um-inventario/",
+      "destination": "/inventario",
+      "permanent": true
+    },
+    {
+      "source": "/bancos-dificultam-quitacao-da-casa-propria-jornal-o-dia/",
+      "destination": "/blog-amb",
+      "permanent": true
+    },
+    {
+      "source": "/acao-revisional-de-clausulas-contratuais-caixa-economica/",
+      "destination": "/blog-amb",
+      "permanent": true
+    },
+    {
+      "source": "/sumula-543-saiba-o-que-ela-diz-sobre-o-distrato-de-imovel/",
+      "destination": "/blog-amb",
+      "permanent": true
+    },
+    {
+      "source": "/dessa-forma-e-vedado-o-anatocismo-negativo-por-se-tratar-de-verdadeira-anomalia-da-tabela-price/",
+      "destination": "/blog-amb",
+      "permanent": true
+    },
+    {
+      "source": "/esqueleto-de-r-74-bilhoes-do-fcvs-juros-do-passado-abalam-o-futuro-jornal-do-commercio/",
+      "destination": "/blog-amb",
+      "permanent": true
+    },
+    {
+      "source": "/020100-o-fluminense-mutuario-consegue-reduzir-a-divida-da-casa-propria/",
+      "destination": "/causas-vencidas",
+      "permanent": true
+    },
+    {
+      "source": "/mrv-e-sentenciada-devolver-investimento-do-mutuario-por-atraso-na-entrega-das-chaves-e-pagar-danos-materiais/",
+      "destination": "/mrv-e-sentenciada-devolver-investimento-do-mutuario-por-atraso-na-entrega-das-chaves-e-pagar-danos-materiais",
+      "permanent": true
+    },
+    {
+      "source": "/em-quais-casos-posso-fazer-um-distrato-de-imovel/",
+      "destination": "/blog/em-quais-casos-posso-fazer-um-distrato-de-imovel",
+      "permanent": true
+    },
+    {
+      "source": "/no-tocante-ao-reajuste-da-prestacao-esta-previsto-que-se-dara-com-base-no-plano-de-equivalencia-salarial-por-categoria/",
+      "destination": "/blog-amb",
+      "permanent": true
+    },
+    {
+      "source": "/acao-revisional-de-clausulas-contratuais-8/",
+      "destination": "/blog-amb",
+      "permanent": true
+    },
+    {
+      "source": "/quem-somos",
+      "destination": "/rodrigo-rodrigues-correa/",
+      "permanent": true
+    },
+    {
+      "source": "/como-escolher-o-imovel-ideal-para-morar/",
+      "destination": "/blog-amb",
+      "permanent": true
+    },
+    {
+      "source": "/administrativo-fiscal/",
+      "destination": "/blog-amb",
+      "permanent": true
+    },
+    {
+      "source": "/12-abril-2000-jornal-do-commercio-expurgos-do-fgts-mendes-quer-apreciacao-constitucional/",
+      "destination": "/causas-vencidas",
+      "permanent": true
+    },
+    {
+      "source": "/brookfield-50-mil/",
+      "destination": "/brookfield-50-mil",
+      "permanent": true
+    },
+    {
+      "source": "/oito-duvidas-sobre-relacao-entre-proprietario-e-inquilino/",
+      "destination": "/blog-amb",
+      "permanent": true
+    },
+    {
+      "source": "/acao-de-exibicao-de-documentos-expurgos-inflacionarios/",
+      "destination": "/blog-amb",
+      "permanent": true
+    },
+    {
+      "source": "/acao-declaratoria-de-nulidade-de-leilao-reu-caixa-economica-federal/",
+      "destination": "/blog-amb",
+      "permanent": true
+    },
+    {
+      "source": "/notificacao-pessoal-de-mutuario-sobre-leilao-do-imovel-e-obrigatoria/",
+      "destination": "/blog-amb",
+      "permanent": true
+    },
+    {
+      "source": "/direito-civil/",
+      "destination": "/areas-de-atuacao",
+      "permanent": true
+    },
+    {
+      "source": "/dicas-e-duvidas-na-licitacao/",
+      "destination": "/blog-amb",
+      "permanent": true
+    },
+    {
+      "source": "/inventario-judicial-e-extrajudicial/",
+      "destination": "/inventario",
+      "permanent": true
+    },
+    {
+      "source": "/auxilio-ao-trafico-de-drogas-e-a-lei-no-11-34306/",
+      "destination": "/blog-amb",
+      "permanent": true
+    },
+    {
+      "source": "/devolver-ao-mutuario-em-dobro-e-corrigido-monetariamente-tudo-o-que-foi-pago-indevidamente-durante-todo-o-financiamento/",
+      "destination": "/blog-amb",
+      "permanent": true
+    },
+    {
+      "source": "/codigo-de-defesa-do-consumidor/",
+      "destination": "/blog-amb",
+      "permanent": true
+    },
+    {
+      "source": "/cliente-satisfeito-e-cliente-que-ganha-o-poder-de-punir-sentenca-morador-recebe-indenizacao-de-r-8-00000-com-processo-na-justica-contra-arena-park-empreendimento-condominio-pilares-r/",
+      "destination": "/causas-vencidas/mais-uma-vitoria-de-nossos-clientes",
+      "permanent": true
+    },
+    {
+      "source": "/por-que-nao-se-pode-dever-o-condominio/",
+      "destination": "/blog-amb",
+      "permanent": true
+    },
+    {
+      "source": "/prorrogacao-no-sfh-pode-deixar-o-financiamento-impagavel/",
+      "destination": "/blog-amb",
+      "permanent": true
+    },
+    {
+      "source": "/posso-solicitar-um-distrato-mesmo-estando-inadimplente-ou-com-dificuldades-para-pagar-as-prestacoes/",
+      "destination": "/blog/posso-solicitar-um-distrato-mesmo-estando-inadimplente-ou-com-dificuldades-para-pagar-as-prestacoes",
+      "permanent": true
+    },
+    {
+      "source": "/condenar-o-reu-itau-a-proceder-a-revisao-das-prestacoes-do-contrato-de-financiamento-firmado-com-os-autores-e-dos-valores/",
+      "destination": "/blog-amb",
+      "permanent": true
+    },
+    {
+      "source": "request-consultation//",
+      "destination": "/contato",
+      "permanent": true
+    },
+    {
+      "source": "/laudo-pericial-contabil/",
+      "destination": "/blog-amb",
+      "permanent": true
+    },
+    {
+      "source": "/construcoes-de-ate-15-mil-metros-quadrados-a-mais-do-que-era-previsto-na-planta-original/",
+      "destination": "/blog-amb",
+      "permanent": true
+    },
+    {
+      "source": "/corretagem-e-de-responsabilidade-da-construtora/",
+      "destination": "/blog-amb",
+      "permanent": true
+    },
+    {
+      "source": "/28-junho-2000-jornal-do-commercio-os-cuidados-na-compra-de-imovel/",
+      "destination": "/blog/8-cuidados-na-hora-de-comprar-um-imovel-na-planta",
+      "permanent": true
+    },
+    {
+      "source": "/cresce-procura-por-leiloes-imobiliarios-online/",
+      "destination": "/blog-amb",
+      "permanent": true
+    },
+    {
+      "source": "/5-maio-2000o-fluminense-mutuarios-que-assinaram-contratos-de-acordo-com-o-sistema-financeiro-de-habitacao/",
+      "destination": "/causas-vencidas",
+      "permanent": true
+    },
+    {
+      "source": "/julgo-quitado-contrato-mutuario-sfh-condenando-a-cef-restituir-quaisquer-parcelas-pagas-depois-13-12-98-atualizadas/",
+      "destination": "/causas-vencidas/cef-e-condenada-pagar-r-20-000-de-danos-morais-por-anatocismo",
+      "permanent": true
+    },
+    {
+      "source": "/trabalhadores-lojas-de-rua-e-shoppings/",
+      "destination": "/blog-amb",
+      "permanent": true
+    },
+    {
+      "source": "/lei-de-introducao-as-normas-do-direito-brasileiro-atualizado-14-07-118-10-09/",
+      "destination": "/blog-amb",
+      "permanent": true
+    },
+    {
+      "source": "/direito-penal-empresarial/",
+      "destination": "/areas-de-atuacao",
+      "permanent": true
+    },
+    {
+      "source": "/defesa-fiscal/",
+      "destination": "/execuçao-fiscal",
+      "permanent": true
+    },
+    {
+      "source": "/notificacao-sfh/",
+      "destination": "/blog-amb",
+      "permanent": true
+    },
+    {
+      "source": "/newsletter/",
+      "destination": "/contato",
+      "permanent": true
+    },
+    {
+      "source": "/agradecimento/",
+      "destination": "/contato",
+      "permanent": true
+    },
+    {
+      "source": "/notificacao-distrato/",
+      "destination": "/blog/em-quais-casos-posso-fazer-um-distrato-de-imovel",
+      "permanent": true
+    },
+    {
+      "source": "/licitacao-lei-8-666-atualizado12-04-2017/",
+      "destination": "/blog-amb",
+      "permanent": true
+    },
+    {
+      "source": "/andre-da-silva-francisco/",
+      "destination": "/quem-somos",
+      "permanent": true
+    },
+    {
+      "source": "/constituicao-da-republica-federativa-do-brasil-1988-atualizada-21-06-2019/",
+      "destination": "/blog-amb",
+      "permanent": true
+    },
+    {
+      "source": "/lp2/",
+      "destination": "/blog-amb",
+      "permanent": true
+    },
+    {
+      "source": "/dr-accacio-barrozo-especialista-em-direito-imobiliario-fala-sobre-novo-sistema-de-financiamento/",
+      "destination": "/blog-amb",
+      "permanent": true
+    },
+    {
+      "source": "/direito_hereditario/",
+      "destination": "/inventario",
+      "permanent": true
+    },
+    {
+      "source": "/acao-de-quitacao-do-financiamento-imobiliario-pelo-fcvs/",
+      "destination": "/causas-vencidas",
+      "permanent": true
+    },
+    {
+      "source": "/aside/",
+      "destination": "/blog-amb",
+      "permanent": true
+    },
+    {
+      "source": "/julgo-parcialmente-procedente-o-pedido-para-determinar-a-revisao-do-contrato-de-financiamento-do-autor-revendo-se-o-saldo/",
+      "destination": "/blog-amb",
+      "permanent": true
+    },
+    {
+      "source": "/defeito-na-obra-prescreve-em-vinte-anos/",
+      "destination": "/defeito-na-obra",
+      "permanent": true
+    },
+    {
+      "source": "/lp1/",
+      "destination": "/blog-amb",
+      "permanent": true
+    },
+    {
+      "source": "/categoria/:path(.*)",
+      "destination": "/blog-amb",
+      "permanent": true
+    },
+    {
       "source": "/category/:path(.*)",
+      "destination": "/blog-amb",
+      "permanent": true
+    },
+    {
+      "source": "/type/:path(.*)",
+      "destination": "/blog-amb",
+      "permanent": true
+    },
+    {
+      "source": "/portfolio/:path(.*)",
+      "destination": "/blog-amb",
+      "permanent": true
+    },
+    {
+      "source": "/author/:path(.*)",
+      "destination": "/blog-amb",
+      "permanent": true
+    },
+    {
+      "source": "/tags/:path(.*)",
+      "destination": "/blog-amb",
+      "permanent": true
+    },
+    {
+      "source": "/2017/:path(.*)",
+      "destination": "/blog-amb",
+      "permanent": true
+    },
+    {
+      "source": "/2018/:path(.*)",
+      "destination": "/blog-amb",
+      "permanent": true
+    },
+    {
+      "source": "/2019/:path(.*)",
+      "destination": "/blog-amb",
+      "permanent": true
+    },
+    {
+      "source": "/2020/:path(.*)",
       "destination": "/blog-amb",
       "permanent": true
     }
