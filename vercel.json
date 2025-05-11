@@ -562,6 +562,11 @@
       "permanent": true
     },
     {
+      "source": "/acao-revisional-de-clausulas-contratuais-reu-banco-bradesco-sa",
+      "destination": "/causas-vencidas",
+      "permanent": true
+    },
+    {
       "source": "/julgo-parcialmente-procedente-o-pedido-para-determinar-a-revisao-do-contrato-de-financiamento-do-autor-revendo-se-o-saldo/",
       "destination": "/blog-amb",
       "permanent": true
