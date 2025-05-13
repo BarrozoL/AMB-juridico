@@ -22,7 +22,6 @@ export default function BlogPostsAmb() {
 
   return (
     <div>
-      {/* ===== Full-Width Title Section ===== */}
       <div className="w-screen bg-[#211f40] p-2 text-white py-20 text-center">
         <h1 className="text-3xl font-bold mb-4">{post.titulo}</h1>
       </div>
