@@ -8,6 +8,17 @@ import imagemMarteloStock from "../assets/images/martelo-stock.png";
 
 import imagemPessoaEscrevendo from "../assets/images/pessoa-escrevendo.png";
 
+/* {
+  id: 11,
+  slug: "",
+  titulo: "",
+  excerpt: "",
+  texto: "",
+  categoria: "",
+  data: "",
+  imagem: "",
+}, */
+
 export const blogPosts = [
   {
     id: 1,
@@ -88,7 +99,7 @@ Uma das novas inserções previstas por lei e que afetará e muito o bolso dos c
   },
 
   {
-    id: 7,
+    id: 5,
     slug: "8-cuidados-na-hora-de-comprar-um-imovel-na-planta",
     titulo: "8 cuidados na hora de comprar um imóvel na planta",
     excerpt:
@@ -141,7 +152,7 @@ Todo folheto folder (folheto) e prospecto do empreendimento deve ser guardado pa
     imagem: imagemMarteloStock,
   },
   {
-    id: 10,
+    id: 6,
     slug: "prorrogacao-no-sfh-pode-deixar-o-financiamento-impagavel",
     titulo: "A prorrogação no SFH pode deixar o financiamento impagável",
     excerpt:
@@ -173,14 +184,20 @@ Na hora de comprar o seu imóvel, fique atento a todas as cláusulas do contrato
     imagem: imagemPessoaEscrevendo,
   },
 
-  {
-    id: 11,
-    slug: "",
-    titulo: "",
-    excerpt: "",
-    texto: "",
-    categoria: "",
-    data: "",
-    imagem: "",
-  },
+  /*  {
+    id: 7,
+    slug: "a-defesa-do-contribuinte-em-processos-de-execução-fiscal-por-dívida-de-iptu",
+    titulo:
+      "A Defesa do Contribuinte em Processos de Execução Fiscal por Dívida de IPTU",
+    excerpt:
+      "Quando o contribuinte enfrenta uma cobrança indevida ou busca contestar a dívida, algumas defesas podem ser arguidas para proteger seus direitos.",
+    texto: `
+  <p>Como advogado especializado em direito tributário, é essencial compreender as nuances do processo de execução fiscal relacionado ao Imposto Predial e Territorial Urbano (IPTU). Quando o contribuinte enfrenta uma cobrança indevida ou busca contestar a dívida, algumas defesas podem ser arguidas para proteger seus direitos. Vamos explorar algumas delas:</p>
+  <h2 class="text-2xl font-semibold mt-4 mb-2">Nulidade da Inscrição em Dívida Ativa:</h2>
+  <h3 class="text-2xl font-semibold mt-4 mb-2">asda</h3>
+`,
+    categoria: "Artigo",
+    data: "2 de maio de 2025",
+    imagem: imagemBalançaMarteloStock,
+  }, */
 ];
