@@ -1,9 +1,9 @@
-'use client';
+"use client";
 
-import { usePathname, useSearchParams } from 'next/navigation';
-import { useEffect, useRef } from 'react';
-import Script from 'next/script';
-import ReactGA from 'react-ga4';
+import { usePathname, useSearchParams } from "next/navigation";
+import { useEffect, useRef } from "react";
+import Script from "next/script";
+import ReactGA from "react-ga4";
 import { applyStoredConsent } from "../lib/consentService";
 
 const GA_ID = process.env.NEXT_PUBLIC_GA_ID;
@@ -13,12 +13,12 @@ const GA_ID = process.env.NEXT_PUBLIC_GA_ID;
  * then initialises ReactGA and tracks SPA navigation.
  */
 export default function Analytics() {
-  const pathname      = usePathname();
-  const searchParams  = useSearchParams();
-  const hasInit       = useRef(false);          // dev‑server HMR guard
+  const pathname = usePathname();
+  const searchParams = useSearchParams();
+  const hasInit = useRef(false); // dev‑server HMR guard
 
   /* —— 1. load the GA script & Consent‑Mode bootstrap —— */
-  if (!GA_ID) return null;                      // no ID → skip analytics
+  if (!GA_ID) return null; // no ID → skip analytics
 
   return (
     <>
@@ -60,16 +60,16 @@ function GaClient({ pathname, search, hasInit }) {
   useEffect(() => {
     if (hasInit.current || !GA_ID) return;
 
-    ReactGA.initialize(GA_ID);     // 🔑  create GA instance
-    applyStoredConsent();          // 🔑  honour stored choice
+    ReactGA.initialize(GA_ID); // 🔑  create GA instance
+    applyStoredConsent(); // 🔑  honour stored choice
     hasInit.current = true;
   }, []);
 
   /* ----- fire a page‑view on every route change ----- */
   useEffect(() => {
-    if (!hasInit.current) return;  // GA not ready yet
+    if (!hasInit.current) return; // GA not ready yet
     const url = search ? `${pathname}?${search}` : pathname;
-    ReactGA.send({ hitType: 'pageview', page: url, title: document.title });
+    ReactGA.send({ hitType: "pageview", page: url, title: document.title });
   }, [pathname, search]);
 
   return null;

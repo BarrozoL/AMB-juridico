@@ -1,5 +1,3 @@
-"use client";
-
 import ReactGA from "react-ga4";
 
 /** ⬇️  Next.js exposes client‑side env vars as process.env.NEXT_PUBLIC_* */
