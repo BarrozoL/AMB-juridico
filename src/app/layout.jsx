@@ -3,8 +3,8 @@ import { Suspense } from "react";
 import "./globals.css";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
-/* import CookieConsentBanner from "./components/CookieConsentBanner";
-import Analytics from "./components/Analytics"; */
+import CookieConsentBanner from "./components/CookieConsentBanner";
+import Analytics from "./components/Analytics";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -31,10 +31,10 @@ export default function RootLayout({ children }) {
         <Navbar />
         {children}
         <Footer />
-        {/*   <CookieConsentBanner />
+        <CookieConsentBanner />
         <Suspense fallback={null}>
           <Analytics />
-        </Suspense> */}
+        </Suspense>
       </body>
     </html>
   );
