@@ -3,7 +3,7 @@ import { Suspense } from "react";
 import "./globals.css";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
-import CookieConsentBanner from "./components/CookieConsentBanner";
+import CookieConsentBanner from "./components/cookieConsentBanner";
 import Analytics from "./components/Analytics";
 
 const geistSans = Geist({
