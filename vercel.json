@@ -77,6 +77,11 @@
       "permanent": true
     },
     {
+      "source": "/devoluçao-de-imovel/",
+      "destination": "/devolucao-de-imovel",
+      "permanent": true
+    },
+    {
       "source": "/direito-tributario/",
       "destination": "/inventario",
       "permanent": true
