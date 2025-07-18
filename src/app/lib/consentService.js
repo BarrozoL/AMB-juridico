@@ -5,6 +5,8 @@ const GA_MEASUREMENT_ID = process.env.NEXT_PUBLIC_GA_ID;
 
 /* ---------- Accept ---------- */
 export const handleAcceptCookies = () => {
+  if (typeof window === "undefined") return; // SSR safety
+
   if (GA_MEASUREMENT_ID && ReactGA.isInitialized) {
     ReactGA.gtag("consent", "update", {
       ad_storage: "granted",
@@ -21,6 +23,8 @@ export const handleAcceptCookies = () => {
 
 /* ---------- Deny ---------- */
 export const handleDenyCookies = () => {
+  if (typeof window === "undefined") return; // SSR safety
+
   if (GA_MEASUREMENT_ID && ReactGA.isInitialized) {
     ReactGA.gtag("consent", "update", {
       ad_storage: "denied",
@@ -35,6 +39,8 @@ export const handleDenyCookies = () => {
 
 /* ---------- Apply stored choice on page load ---------- */
 export const applyStoredConsent = () => {
+  if (typeof window === "undefined") return; // SSR safety
+
   const stored = localStorage.getItem("cookie_consent_analytics");
 
   if (!GA_MEASUREMENT_ID) {
