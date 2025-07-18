@@ -4,7 +4,7 @@ import { usePathname, useSearchParams } from 'next/navigation';
 import { useEffect, useRef } from 'react';
 import Script from 'next/script';
 import ReactGA from 'react-ga4';
-import { applyStoredConsent } from '@/app/lib/consentService';
+import { applyStoredConsent } from "../lib/consentService";
 
 const GA_ID = process.env.NEXT_PUBLIC_GA_ID;
 
