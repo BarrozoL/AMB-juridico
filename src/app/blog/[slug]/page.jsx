@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export default function BlogPostsAmb({ params }) {
   const { slug } = params;
-  const post = blogPosts.find((p) => p.slug === slug);
+  const post = blogPosts.find((p) => p?.slug === slug);
 
   if (!post) {
     return (
