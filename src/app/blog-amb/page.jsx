@@ -9,7 +9,7 @@ export default function BlogList() {
   const [selectedCategory, setSelectedCategory] = useState("Todos");
   const categories = [
     "Todos",
-    ...Array.from(new Set(blogPosts.map((p) => p.categoria).filter(Boolean))),
+    ...Array.from(new Set(blogPosts.map((p) => p?.categoria).filter(Boolean))),
   ];
 
   return (
