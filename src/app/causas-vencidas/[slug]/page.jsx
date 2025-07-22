@@ -1,17 +1,21 @@
 import Sidebar from "../../components/BlogSidebar";
 import { causasVencidas } from "../../components/CausasVencidasData";
 import Link from "next/link";
+import { notFound } from "next/navigation";
 
-export default function BlogPostsAmb({ params }) {
+export async function generateStaticParams() {
+  return causasVencidas.map((post) => ({
+    slug: post?.slug,
+  }));
+}
+
+export default function CausasVencidasAmb({ params }) {
   const { slug } = params;
+
   const post = causasVencidas.find((p) => p.slug === slug);
 
   if (!post) {
-    return (
-      <div className="max-w-3xl mx-auto p-4">
-        <h1 className="text-2xl font-bold mb-4">Post não encontrado</h1>
-      </div>
-    );
+    notFound();
   }
 
   return (

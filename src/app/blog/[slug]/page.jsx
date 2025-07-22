@@ -1,7 +1,7 @@
 import { blogPosts } from "../../components/BlogData"; // Corrected path
 import Sidebar from "../../components/BlogSidebar";
 import Link from "next/link";
-import { notFound } from "next/navigation"; // Import the notFound function
+import { notFound } from "next/navigation";
 
 // Step 1: Generate the list of pages for Vercel to build
 export async function generateStaticParams() {
