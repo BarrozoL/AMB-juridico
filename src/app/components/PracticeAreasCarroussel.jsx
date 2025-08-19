@@ -30,13 +30,14 @@ const areas = [
   },
   {
     icon: livroPreto,
-    slug: "/",
+    slug: "/execucao-fiscal",
     title: "Direito Tributário",
     description:
       "Suporte jurídico para evitar abusos e garantir que os tributos sejam cobrados dentro dos limites da lei.",
   },
   {
     icon: balacaBranca,
+    slug: "/execucao-fiscal",
     title: "Execução Fiscal",
     description: "Defesa na execução fiscal.",
   },
