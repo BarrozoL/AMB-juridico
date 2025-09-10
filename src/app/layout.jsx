@@ -9,6 +9,10 @@ import GoogleTagManager, {
   GoogleTagManagerNoscript,
 } from "./components/GoogleTagManager";
 
+import FloatingWhatsAppButton from "./components/FloatingWhatsappButton";
+
+import { FloatingWhatsAppAnimated } from "./components/FloatingWhatsappButton";
+
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -39,6 +43,8 @@ export default function RootLayout({ children }) {
         <Suspense fallback={null}>
           <Analytics />
         </Suspense>
+
+        <FloatingWhatsAppAnimated />
         <GoogleTagManager />
       </body>
     </html>
