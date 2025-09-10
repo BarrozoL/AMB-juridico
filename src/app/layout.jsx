@@ -5,6 +5,9 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import CookieConsentBanner from "./components/cookieConsentBanner";
 import Analytics from "./components/Analytics";
+import GoogleTagManager, {
+  GoogleTagManagerNoscript,
+} from "./components/GoogleTagManager";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -28,6 +31,7 @@ export default function RootLayout({ children }) {
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <GoogleTagManagerNoscript />
         <Navbar />
         {children}
         <Footer />
@@ -35,6 +39,7 @@ export default function RootLayout({ children }) {
         <Suspense fallback={null}>
           <Analytics />
         </Suspense>
+        <GoogleTagManager />
       </body>
     </html>
   );
