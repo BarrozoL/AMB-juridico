@@ -85,7 +85,7 @@ export default function BlogList() {
                 {/* Card Content */}
                 <div className="p-4 flex flex-col flex-grow">
                   <Link href={`/blog/${post.slug}`} className="">
-                    <h2 className="text-md mb-6 font-semibold text-gray-900 mb-2 hover:underline cursor-pointer transition">
+                    <h2 className="text-md mb-4 font-semibold text-gray-900 hover:underline cursor-pointer transition">
                       {post.titulo}
                     </h2>
                   </Link>

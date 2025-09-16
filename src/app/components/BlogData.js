@@ -1,4 +1,4 @@
-import imagemRio from "../images/Rio-de-Janeiro-orla-noite.webp"
+import imagemRio from "../images/Rio-de-Janeiro-orla-noite.webp";
 import imagemBalançaMarteloStock from "../images/balanca-martelo-stock.png";
 import imagemBondinho from "../images/bondinho-stock.jpg";
 import imagemCidadeNoite from "../images/cidade-noite-stock.jpg";
@@ -184,20 +184,402 @@ Na hora de comprar o seu imóvel, fique atento a todas as cláusulas do contrato
     imagem: imagemPessoaEscrevendo,
   },
 
-  /*  {
+  {
     id: 7,
-    slug: "a-defesa-do-contribuinte-em-processos-de-execução-fiscal-por-dívida-de-iptu",
+    slug: "o-processo-de-execucao-fiscal-e-a-formalizacao-da-cda-certidao-da-divida-ativa",
     titulo:
-      "A Defesa do Contribuinte em Processos de Execução Fiscal por Dívida de IPTU",
+      "O processo de execução fiscal e a formalização da CDA – Certidão da dívida ativa",
     excerpt:
-      "Quando o contribuinte enfrenta uma cobrança indevida ou busca contestar a dívida, algumas defesas podem ser arguidas para proteger seus direitos.",
-    texto: `
-  <p>Como advogado especializado em direito tributário, é essencial compreender as nuances do processo de execução fiscal relacionado ao Imposto Predial e Territorial Urbano (IPTU). Quando o contribuinte enfrenta uma cobrança indevida ou busca contestar a dívida, algumas defesas podem ser arguidas para proteger seus direitos. Vamos explorar algumas delas:</p>
-  <h2 class="text-2xl font-semibold mt-4 mb-2">Nulidade da Inscrição em Dívida Ativa:</h2>
-  <h3 class="text-2xl font-semibold mt-4 mb-2">asda</h3>
-`,
-    categoria: "Artigo",
-    data: "2 de maio de 2025",
+      "A Certidão de Dívida Ativa (CDA) é a base da execução fiscal de IPTU. Se não for emitida corretamente, pode até gerar a nulidade da cobrança...",
+    texto: `O processo de execução fiscal é uma ferramenta crucial para a cobrança de dívidas tributárias. No entanto, para garantir a validade e eficácia desse processo, é fundamental que o fisco observe com atenção a Certidão de Dívida Ativa (CDA). A CDA é o documento que formaliza a inscrição do débito na dívida ativa da Fazenda Pública e serve como base para a execução fiscal. ${(
+      <br />
+    )} Aqui estão algumas questões essenciais que devem constar na CDA, pois quando não observadas, o contribuinte poderá alegar nulidade: 
+    
+    • Fundamentação Legal:
+
+A CDA deve conter a indicação específica dos dispositivos legais que embasam a cobrança. A ausência dessa informação pode tornar a certidão nula.
+
+Certifique-se de que a CDA mencione claramente o fundamento legal da dívida tributária.
+
+• Termo Inicial e Elementos para Cálculo:
+
+A CDA deve indicar o termo inicial para calcular a correção monetária e os juros de mora.
+
+A falta desses elementos prejudica o direito de defesa do executado e compromete a certeza e liquidez da dívida ativa.
+
+• Erro Material ou Formal:
+
+A emenda ou substituição da CDA é permitida apenas quando há erro material ou formal. Isso significa que não é possível corrigir vícios decorrentes do próprio lançamento ou inscrição.
+
+Por exemplo, se a CDA não contém o fundamento legal ou omite informações essenciais, ela pode ser considerada nula.
+
+• Sujeito Passivo Incorreto:
+
+A CDA deve indicar corretamente o sujeito passivo da execução. Se houver erro nesse ponto, a certidão pode ser anulada.
+
+A Súmula 392 do STJ estabelece que a Fazenda Pública pode substituir a CDA até a sentença de embargos, desde que seja para correção de erro material ou formal, sem alterar o sujeito passivo da execução.
+
+• Limitações na Substituição da CDA:
+
+A substituição da CDA não se estende ao lançamento. A Fazenda Pública pode ajustar a inscrição ou a CDA, mas não alterar o valor do débito lançado ou os fundamentos de fato e de direito que originaram o lançamento.
+
+Em resumo, a CDA é um documento sensível e deve ser elaborada com precisão. Os profissionais do direito devem estar atentos a essas questões, pois a não observância de algum desses pontos, pode ajudar na defesa do contribuinte, acarretando na nulidade da execução.`,
+    categoria: "Defesa Execução IPTU",
+    data: "3 de julho de 2025",
+    imagem: imagemPessoaEscrevendo,
+  },
+  {
+    id: 8,
+    slug: "estrategias-que-podem-ser-adotadas-na-defesa-do-contribuinte-na-execucao-fiscal-do-iptu",
+    titulo:
+      "Estratégias que podem ser adotadas na defesa do contribuinte, na execução fiscal do IPTU",
+    excerpt:
+      "No processo de execução fiscal, o executado tem meios de defesa: embargos à execução, usar a exceção de pré-executividade, contestar o mérito da dívida, buscar parcelamento ou até remissão.",
+    texto: `O executado, quando alvo de um processo de execução fiscal, possui meios legais para se defender e proteger seus interesses. Aqui estão algumas estratégias que o executado pode adotar:
+
+• Apresentação de Embargos à Execução:
+
+ Os embargos à execução são uma via processual que permite ao executado contestar a cobrança. Nesse momento, ele pode alegar vícios formais na Certidão de Dívida Ativa (CDA), como erros de cálculo, ausência de fundamentação legal ou irregularidades no procedimento.
+
+É importante que o executado apresente os embargos dentro do prazo legal, geralmente de 30 dias a partir da citação na execução fiscal.
+
+• Exceção de Pré-Executividade:
+
+A exceção de pré-executividade é uma defesa prévia que não exige o oferecimento de garantia ou o pagamento do débito. O executado pode alegar questões processuais ou nulidades diretamente ao juiz, sem a necessidade de instaurar um processo autônomo.
+
+Essa via é útil para questionar vícios na CDA, prescrição, ilegitimidade passiva ou outras irregularidades.
+
+• Discussão do Mérito da Dívida:
+
+O executado pode contestar o mérito da dívida, argumentando que não deve o valor cobrado. Isso pode envolver a demonstração de pagamento, decadência, compensação, entre outros.
+
+É importante reunir provas documentais que sustentem a alegação de que a dívida não é devida.
+
+• Pedido de Parcelamento ou Remissão:
+
+O executado pode negociar com a Fazenda Pública para obter um parcelamento da dívida ou até mesmo pleitear a remissão (perdão) total ou parcial do débito.
+
+Essa alternativa é viável quando o executado comprova dificuldades financeiras ou quando há equívocos na cobrança.
+
+• Defesa Técnica Especializada:
+
+É fundamental que o executado busque a orientação de um advogado especializado em direito tributário. Um profissional capacitado pode analisar o caso, identificar as melhores estratégias e representar o executado de forma eficaz.
+
+Em resumo, o executado tem direito à ampla defesa e ao contraditório no processo de execução fiscal. A escolha da melhor estratégia dependerá das particularidades de cada caso e da análise técnica de um advogado competente.`,
+    categoria: "Defesa Execução IPTU",
+    data: "3 de maio de 2025",
+    imagem: imagemPessoaEscrevendo,
+  },
+
+  {
+    id: 9,
+    slug: "consequencias-do-nao-pagamento-do-iptu",
+    titulo: "Consequências do não pagamento do IPTU",
+    excerpt:
+      "O não pagamento do IPTU gera consequências graves, como juros, multas, inscrição em dívida ativa, protesto em cartório e até execução fiscal.",
+    texto: `O Imposto Predial e Territorial Urbano (IPTU) é uma obrigação fiscal que incide sobre imóveis urbanos em todo o Brasil. Como advogado tributário especializado na defesa do contribuinte, é crucial compreender as implicações legais e financeiras do não pagamento pontual desse imposto.
+
+Consequências do Não Pagamento do IPTU:
+
+• Cobrança de Juros e Multas:
+
+O não pagamento do IPTU na data de vencimento resulta em juros e multas, que podem aumentar significativamente o valor da dívida.
+
+Esses encargos financeiros podem se acumular ao longo do tempo, tornando a dívida ainda mais onerosa para o contribuinte.
+
+• Inscrição em Dívida Ativa:
+
+Após um período de inadimplência, o débito de IPTU não pago é inscrito na dívida ativa do município.
+
+Isso significa que o contribuinte passa a constar oficialmente como devedor, sujeito a medidas legais para a recuperação do valor devido.
+
+• Protesto da Dívida:
+
+O município pode protestar a dívida em cartório, afetando o histórico de crédito do contribuinte.
+
+Essa situação pode dificultar futuras transações financeiras, como obtenção de empréstimos ou financiamentos.
+
+• Ações Judiciais:
+
+A prefeitura tem o direito de entrar com ações judiciais para recuperar o valor devido, e isso é feito através do ajuizamento da execução fiscal.
+
+Isso pode resultar em penhora de bens ou até mesmo no leilão do imóvel para quitar a dívida.
+
+• Leilão do Imóvel:
+
+Em casos extremos, a falta de pagamento do IPTU pode levar ao leilão do imóvel.
+
+O imóvel é vendido para quitar a dívida, resultando na perda da propriedade pelo contribuinte. Por isso é muito importante a contratação de um advogado especialista para apresentação da sua defesa e acompanhamento do processo de execução.
+
+Soluções e Alternativas:
+
+Caso esteja enfrentando dificuldades financeiras, é aconselhável entrar em contato com a prefeitura e buscar alternativas, como parcelamentos, para evitar problemas futuros.
+
+Quando notificado para apresentar defesa na execução fiscal, procure imediatamente um advogado, pois existem inúmeras alternativas que podem ser adotadas para a melhor resolução da demanda. A não apresentação de defesa pode agravar a sua situação, e acarretar não apenas na penhora do bem imóvel, mas também na penhora de seus rendimentos.
+
+•Como advogado, é nosso dever orientar os contribuintes sobre seus direitos e responsabilidades, garantindo que possam tomar decisões informadas e evitar complicações legais.`,
+    categoria: "Defesa Execução IPTU",
+    data: "10 de janeiro de 2025",
+    imagem: imagemEstatuaBalança,
+  },
+
+  {
+    id: 10,
+    slug: "formas-de-contestar-a-cobranca-indevida-do-iptu",
+    titulo: "Formas de contestar a cobrança indevida do IPTU",
+    excerpt:
+      "O contribuinte que recebe uma cobrança indevida de IPTU pode recorrer administrativamente, apresentando documentos e até laudo imobiliário para comprovar o valor real do imóvel, ou judicialmente, com apoio de um advogado especializado.",
+    texto: `Quando um contribuinte se depara com uma cobrança indevida de IPTU, existem duas formas principais de contestar essa situação:
+
+• Processo Administrativo:
+
+O contribuinte pode iniciar um processo administrativo junto à prefeitura.
+
+Nesse processo, é necessário fornecer todos os documentos solicitados para comprovar a cobrança abusiva de IPTU.
+
+Caso o valor venal do imóvel seja menor do que o declarado pela prefeitura, o contribuinte pode contratar o serviço de uma empresa imobiliária para preparar um laudo comprobatório.
+
+ Esse laudo demonstrará o valor real da propriedade no mercado.
+
+A prefeitura avaliará os argumentos e provas apresentados e poderá revisar o valor cobrado.
+
+• Ação Judicial:
+
+O contribuinte também pode buscar a revisão por meio de uma ação judicial.
+
+Nesse caso, é necessário contratar um advogado especializado em direito tributário.
+
+O advogado entrará com a ação, apresentando os argumentos e provas em juízo.
+
+O processo judicial pode levar algum tempo, mas é uma alternativa para obter a revisão da cobrança indevida.
+
+Lembre-se de que, durante o processo, é importante ficar atento aos prazos e consequências da execução fiscal, para evitar riscos como a penhora de bens e proventos ou o leilão do imóvel. Consultar um profissional especializado é fundamental para garantir que seus direitos sejam protegidos durante esse processo.`,
+    categoria: "Defesa Execução IPTU",
+    data: "23 de fevereiro de 2025",
+    imagem: imagemBondinho,
+  },
+
+  {
+    id: 11,
+    slug: "a-defesa-do-contribuinte-em-processos-de-execucao-fiscal-por-divida-de-iptu",
+    titulo:
+      "A defesa do contribuinte em processos de execução fiscal por dívida de IPTU",
+    excerpt:
+      "O contribuinte pode se defender na execução fiscal do IPTU alegando nulidade da dívida, erros na CDA, vícios processuais ou buscando ações judiciais e mandado de segurança. A análise de um advogado tributário é essencial para proteger seus direitos e patrimônio.",
+    texto: `Como advogado especializado em direito tributário, é essencial compreender as nuances do processo de execução fiscal relacionado ao Imposto Predial e Territorial Urbano (IPTU). Quando o contribuinte enfrenta uma cobrança indevida ou busca contestar a dívida, algumas defesas podem ser arguidas para proteger seus direitos. Vamos explorar algumas delas:
+
+• Nulidade da Inscrição em Dívida Ativa:
+
+A inscrição do débito em dívida ativa é um passo crucial no processo de execução fiscal.
+
+Contudo, qualquer omissão ou erro nos requisitos dessa inscrição pode resultar em nulidade.
+
+O artigo 203 do Código Tributário Nacional estabelece que a falta de cumprimento desses requisitos é motivo para anular a inscrição e todo o processo de cobrança subsequente.
+
+• Exceção de Pré-Executividade:
+
+Essa defesa permite que o contribuinte questione vícios processuais antes mesmo do início da execução.
+
+Possíveis nulidades, como falta de citação adequada ou ausência de fundamentação, podem ser alegadas por meio dessa exceção.
+
+• Erro Material e Vícios na CDA (Certidão de Dívida Ativa):
+
+A CDA é o título executivo que embasa a cobrança judicial.
+
+Qualquer erro material ou vício na CDA pode ser utilizado como defesa.
+
+Por exemplo, inconsistências nos valores, descrição do imóvel ou identificação do contribuinte podem invalidar a execução.
+
+• Ação Anulatória e Ação Declaratória:
+
+A ação anulatória busca anular o ato administrativo que gerou a dívida.
+
+A ação declaratória visa obter uma declaração judicial sobre a inexistência ou ilegalidade do débito.
+
+Ambas podem ser estratégias eficazes para contestar a cobrança.
+
+• Mandado de Segurança:
+
+Em casos urgentes, o contribuinte pode impetrar um mandado de segurança para proteger seus direitos líquidos e certos.
+
+Isso pode ser útil quando há risco iminente de penhora ou leilão do imóvel.
+
+Em resumo, a defesa do contribuinte deve ser pautada na análise minuciosa do processo, identificando possíveis nulidades e vícios. Consultar um advogado especializado é fundamental para garantir que todas as medidas legais sejam tomadas em prol do cliente/contribuinte e para assegurar que seus direitos sejam preservados durante o processo de execução fiscal.`,
+    categoria: "Defesa Execução IPTU",
+    data: "10 de janeiro de 2025",
+    imagem: imagemEstatuaBalança,
+  },
+
+  {
+    id: 12,
+    slug: "redirecionamento-da-execucao-fiscal-para-socios-e-administradores-entendendo-as-responsabilidades",
+    titulo:
+      "Redirecionamento da execução fiscal para sócios e administradores: Entendendo as responsabilidades",
+    excerpt:
+      "O redirecionamento da execução fiscal permite que sócios e administradores sejam responsabilizados por dívidas tributárias da empresa, especialmente em casos de dissolução irregular, infração à lei ou excesso de poderes.",
+    texto: `O redirecionamento da execução fiscal é um tema crucial no âmbito jurídico, especialmente quando se trata da cobrança de dívidas tributárias. Muitas vezes, a pessoa jurídica devedora não possui recursos suficientes para quitar seus débitos, ou foi dissolvida de forma irregular, e é nesse contexto que os sócios e administradores podem ser envolvidos.
+
+1. Responsabilidade Tributária dos Sócios e Administradores: A base legal para o redirecionamento está nos artigos 134 e 135 do Código Tributário Nacional (CTN). Vamos analisá-los:
+
+• Artigo 134 (CTN): Nos casos em que o cumprimento da obrigação principal pelo contribuinte é impossível, os sócios respondem solidariamente nos atos em que intervieram ou pelas omissões de que foram responsáveis. Isso inclui a liquidação de sociedade de pessoas.
+
+• Artigo 135 (CTN): Pessoas físicas podem ser responsáveis pelos créditos tributários resultantes de atos praticados com excesso de poderes ou infração de lei, contrato social ou estatutos. Isso inclui mandatários, prepostos, empregados, diretores e gerentes de pessoas jurídicas de direito privado.
+
+2. Situações que Levam ao Redirecionamento: O redirecionamento pode ocorrer nas seguintes circunstâncias:
+
+• Excesso de Poderes: Quando o sócio ou administrador age além dos limites de sua autoridade, assumindo responsabilidade direta pelos débitos.
+
+• Infração à Lei ou Contrato Social: Se o sócio ou administrador comete atos que violam a legislação tributária, ele pode ser responsabilizado.
+
+• Dissolução Irregular da Sociedade: Essa é uma das maiores causas de redirecionamento da execução, pois muitas empresas não conseguem baixar a empresa regularmente, por conta de dívidas fiscais. E assim, acabam por fechar as suas portas, sem efetivamente baixar a empresa junto aos órgãos competentes.
+
+Quando isso acontece, e o sócio estava envolvido na gestão durante esse período, ele pode ser responsabilizado e ser surpreendido com a penhora de seus bens.
+
+3. Decisões do STJ: O Superior Tribunal de Justiça (STJ) estabeleceu que o redirecionamento é cabível quando comprovada a prática de atos irregulares pelos sócios. Porém, o sócio que se retirou regularmente da sociedade e não deu causa à dissolução irregular não deve ser responsabilizado. Além disso, o prazo para redirecionamento é de cinco anos a partir da citação do executado.
+
+Em resumo, o redirecionamento da execução fiscal é uma ferramenta importante para garantir o cumprimento das obrigações tributárias. Sócios e administradores devem estar cientes de suas responsabilidades e agir dentro dos limites legais para evitar complicações futuras.`,
+    categoria: "Defesa Execução IPTU",
+    data: "5 de setembro de 2025",
+    imagem: imagemMarteloStock,
+  },
+
+  {
+    id: 13,
+    slug: "para-evitar-o-redirecionamento-da-execucao-fiscal-os-socios-devem-adotar-medidas-cautelosas-e-estar-cientes-de-suas-responsabilidades-aqui-estao-alguns-cuidados-essenciais",
+    titulo:
+      "Para evitar o redirecionamento da execução fiscal, os sócios devem adotar medidas cautelosas e estar cientes de suas responsabilidades. Aqui estão alguns cuidados essenciais:",
+    excerpt:
+      "Manter a empresa regular, documentada e transparente, além de encerrar atividades de forma legal e com apoio jurídico, é essencial para evitar que dívidas fiscais atinjam o patrimônio dos sócios.",
+    texto: `• Documentação Adequada:
+
+Mantenha registros detalhados das decisões tomadas pela empresa, especialmente aquelas relacionadas a obrigações fiscais. Isso inclui atas de assembleias, contratos sociais, e-mails e outros documentos relevantes.
+
+• Regularidade Fiscal:
+
+Certifique-se de que a empresa esteja em dia com suas obrigações tributárias. Pague impostos, contribuições e taxas dentro dos prazos estabelecidos.
+
+Evite atrasos ou inadimplência, pois isso pode ser usado como evidência de negligência.
+
+• Transparência na Gestão:
+
+ Atue dentro dos limites de sua autoridade. Evite agir além dos poderes estabelecidos no contrato social ou estatutos da empresa.
+
+Comunique-se com os demais sócios e administradores sobre questões fiscais e financeiras.
+
+• Dissolução Regular da Sociedade:
+
+Se a empresa for encerrada, siga os procedimentos legais para a dissolução. Isso inclui a publicação de atos societários e a baixa nos órgãos competentes.
+
+Evite a dissolução irregular, pois isso pode levar ao redirecionamento da dívida.
+
+• Consultoria Jurídica:
+
+Busque orientação de um advogado especializado em direito tributário. Um profissional pode ajudar a tomar decisões adequadas e evitar riscos desnecessários.
+
+• Não Assumir Dívidas Alheias:
+
+Evite assinar documentos ou garantias pessoais em nome da empresa sem compreender completamente as implicações.
+
+Lembre-se de que a responsabilidade dos sócios é uma questão séria e pode afetar diretamente o seu patrimônio pessoal. Agir com diligência e conhecimento é fundamental para evitar problemas futuros.`,
+    categoria: "Defesa Execução IPTU",
+    data: "10 de novembro de 2024",
+    imagem: imagemPessoaEscrevendo,
+  },
+
+  {
+    id: 14,
+    slug: "bens-e-verbas-impenhoraveis-em-execucao-fiscal-protegendo-o-patrimonio-do-devedor",
+    titulo:
+      "Bens e verbas impenhoráveis em execução fiscal: protegendo o patrimônio do devedor",
+    excerpt:
+      "Nem todo bem pode ser penhorado em uma execução fiscal. A lei protege itens essenciais e verbas específicas, mas no caso do IPTU, até o único imóvel pode ser atingido.",
+    texto: `A execução fiscal é um procedimento pelo qual o Estado busca recuperar créditos tributários não pagos. No entanto, nem todo patrimônio do devedor pode ser objeto de penhora. Existem bens e verbas que a lei protege, garantindo a subsistência e dignidade do executado.
+
+Bens Absolutamente Impenhoráveis: Esses bens são protegidos de forma incondicional. O artigo 833 do Código de Processo Civil estabelece essa proteção. Vejamos alguns exemplos:
+• Bens Inalienáveis: São aqueles que não podem ser transferidos a terceiros, como heranças, imóveis públicos e outros.
+
+• Móveis e Utensílios Domésticos: Itens que guarnecem a residência do executado, desde que não ultrapassem as necessidades comuns de um padrão de vida médio.
+
+• Vestuários e Pertences Pessoais: Roupas e objetos de uso pessoal, exceto se de elevado valor.
+
+• Vencimentos e Salários: Os valores recebidos pelo executado para seu sustento e de sua família, até o limite legal.
+
+• Livros, Máquinas e Ferramentas Profissionais: Bens necessários ao exercício da profissão do devedor.
+
+2. Verbas Impenhoráveis: Além dos bens físicos, algumas verbas também são protegidas:
+
+• Seguro de Vida: Valor recebido em caso de sinistro.
+
+• Pequena Propriedade Rural: Desde que trabalhada pela família.
+
+• Recursos Públicos: Destinados à educação, saúde ou assistência social.
+
+• Caderneta de Poupança: Até o limite de 40 salários-mínimos.
+
+• Créditos de Alienação Imobiliária: Vinculados à execução da obra.
+
+3. Cuidado com o IPTU: É importante destacar que, em casos de cobrança de IPTU, a proteção aos bens é mais restrita. O imóvel pode ser penhorado, mesmo que seja o único bem do devedor. Portanto, atenção redobrada nesses casos.
+
+Em resumo, conhecer os bens e verbas impenhoráveis é essencial para proteger o patrimônio do executado. Consultar um advogado especializado pode ajudar a tomar as melhores decisões e evitar complicações futuras.`,
+    categoria: "Defesa Execução IPTU",
+    data: "7 de maio de 2024",
+    imagem: imagemCidadeNoite,
+  },
+
+  {
+    id: 15,
+    slug: "tese-fixada-pelo-stj-quanto-a-possibilidade-de-redirecionamento-da-execucao-fiscal-para-o-socio",
+    titulo:
+      "Tese fixada pelo STJ, quanto a possibilidade de redirecionamento da execução fiscal para o sócio",
+    excerpt:
+      "O STJ definiu que o redirecionamento da execução fiscal só pode atingir sócios que tenham dado causa à dissolução irregular, respeitando o prazo de cinco anos após a citação da empresa.",
+    texto: `O Superior Tribunal de Justiça (STJ), em um julgamento de grande relevância, definiu sua posição sobre o redirecionamento da execução fiscal em casos de dissolução irregular de pessoa jurídica. Essa questão é crucial para milhares de pessoas físicas que, em algum momento de suas trajetórias profissionais, exerceram cargos diretivos em empresas e, muitas vezes, foram surpreendidas com a constrição de seu patrimônio mesmo após sua retirada da sociedade.
+
+A tese fixada pelo STJ é clara: o prazo de redirecionamento da execução fiscal, fixado em cinco anos contados da citação da pessoa jurídica, é aplicável quando o ato ilícito, previsto no artigo 135, III do Código Tributário Nacional (CTN), for precedente a esse ato processual. Em outras palavras, se antes mesmo da citação da pessoa jurídica, for possível identificar que ela não mais exerce suas atividades (indicativo de dissolução irregular), a responsabilidade pessoal dos dirigentes pode ser caracterizada. Nesse caso, o prazo de prescrição para o redirecionamento em face dos sócios será contado a partir da data da citação da pessoa jurídica.
+
+Além disso, o STJ também estabeleceu que o redirecionamento da execução fiscal não pode ser autorizado contra o sócio ou terceiro não sócio que, embora tenha exercido poderes de gerência no momento do fato gerador, não praticou atos com excesso de poderes ou infração à lei, ao contrato social ou aos estatutos e que regularmente se retirou da sociedade. Ou seja, a responsabilidade pessoal não recai sobre aqueles que não deram causa à posterior dissolução irregular da empresa.
+
+Essa posição do STJ proporciona segurança jurídica e critérios claros para os litígios envolvendo o redirecionamento da execução fiscal. É fundamental que os profissionais do direito estejam cientes dessas diretrizes ao lidar com casos dessa natureza, garantindo a proteção dos direitos dos sócios e terceiros envolvidos.`,
+    categoria: "Defesa Execução IPTU",
+    data: "10 de novembro de 2024",
+    imagem: imagemBondinho,
+  },
+
+  {
+    id: 16,
+    slug: "redirecionamento-da-execucao-fiscal-para-o-socio-o-que-e-e-como-acontece",
+    titulo:
+      "Redirecionamento da execução fiscal para o sócio: o que é e como acontece?",
+    excerpt:
+      "O redirecionamento da execução fiscal permite cobrar dívidas tributárias dos sócios quando há dissolução irregular ou atos de gestão com irregularidades.",
+    texto: `O redirecionamento da execução fiscal é um tema de grande relevância no âmbito jurídico, especialmente quando se trata de dissolução irregular de uma empresa. Nesse contexto, o Superior Tribunal de Justiça (STJ) estabeleceu diretrizes importantes para entender como esse processo funciona e quais situações configuram a dissolução irregular.
+
+O que é o redirecionamento da Execução Fiscal para os sócios da empresa?
+
+O redirecionamento ocorre quando as dívidas tributárias adquiridas pela pessoa jurídica não são pagas e, por falta de bens suficientes da empresa para quitar o débito, a Fazenda busca responsabilizar os sócios. Em outras palavras, o patrimônio pessoal dos sócios pode ser utilizado para pagar dívidas tributárias originariamente da empresa.
+
+O que causa o redirecionamento da Execução Fiscal?
+
+O caminho natural é que as dívidas da empresa sejam pagas com os bens da própria pessoa jurídica. No entanto, o redirecionamento ocorre quando o sócio, que exerce poderes de gerência, atua de forma irregular, prejudicando os cofres públicos. Importante destacar que a responsabilização do sócio não ocorre automaticamente apenas pelo inadimplemento tributário da empresa. O STJ pacificou o entendimento de que o sócio só pode ser responsabilizado se houver indícios de atos com excesso de poderes ou infração à lei, ao contrato social ou aos estatutos.
+
+Dissolução irregular da empresa – Muito cuidado com essa atitude!
+
+A dissolução irregular é um dos principais fatores que podem levar ao redirecionamento da execução fiscal. Quando a empresa encerra suas atividades sem cumprir as formalidades legais, como registro na Junta Comercial e baixa nos órgãos competentes, caracteriza-se a dissolução irregular. Nesse cenário, os sócios que não deram causa a essa irregularidade não podem ser responsabilizados.
+
+Em resumo, o redirecionamento da execução fiscal é uma medida extrema, aplicada com cautela e baseada em critérios específicos. Os profissionais do direito devem estar atentos a essas diretrizes para proteger os direitos dos sócios e garantir a segurança jurídica nas questões tributárias.`,
+    categoria: "Defesa Execução IPTU",
+    data: "10 de novembro de 2024",
     imagem: imagemBalançaMarteloStock,
+  },
+
+  /* {
+    id: 13,
+    slug: "",
+    titulo: "",
+    excerpt: "",
+    texto: ``,
+    categoria: "",
+    data: "",
+    imagem: imagemPessoaEscrevendo,
   }, */
 ];
