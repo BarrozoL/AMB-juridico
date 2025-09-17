@@ -1,5 +1,19 @@
 import React from "react";
 
+export const metadata = {
+  title: "Devolução do Imóvel",
+  description:
+    "Especialistas em resolução de devolução de imóvel. Analise o seu caso com especialistas em Direito Imobiliário.",
+  alternates: { canonical: "/devolucao-de-imovel" },
+  openGraph: {
+    title: "Devolução do Imóvel | Accacio Monteiro Barrozo Assessoria Jurídica",
+    url: "https://www.accaciobarrozo.com/devolucao-de-imovel",
+  },
+  twitter: {
+    title: "Devolução do Imóvel | Accacio Monteiro Barrozo Assessoria Jurídica",
+  },
+};
+
 export default function DevolucaoImovel() {
   return (
     <>

@@ -1,3 +1,17 @@
+export const metadata = {
+  title: "Execução Fiscal",
+  description:
+    "Especialistas em execução fiscal. Analise o seu caso com especialistas em Direito Imobiliário.",
+  alternates: { canonical: "/execucao-fiscal" },
+  openGraph: {
+    title: "Execução Fiscal | Accacio Monteiro Barrozo Assessoria Jurídica",
+    url: "https://www.accaciobarrozo.com/execucao-fiscal",
+  },
+  twitter: {
+    title: "Execução Fiscal | Accacio Monteiro Barrozo Assessoria Jurídica",
+  },
+};
+
 export default function ExecuçaoFiscal() {
   return (
     <>

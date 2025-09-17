@@ -1,3 +1,19 @@
+export const metadata = {
+  title: "inventário",
+  description:
+    "Especialistas em inventário. Analise o seu caso com especialistas em Direito Imobiliário.",
+  alternates: { canonical: "/inventario" },
+  openGraph: {
+    title:
+      "Inventário | Accacio Monteiro Barrozo Assessoria Jurídica",
+    url: "https://www.accaciobarrozo.com/inventario",
+  },
+  twitter: {
+    title:
+      "Atraso na Entrega da Obra | Accacio Monteiro Barrozo Assessoria Jurídica",
+  },
+};
+
 export default function Inventario() {
   return (
     <>

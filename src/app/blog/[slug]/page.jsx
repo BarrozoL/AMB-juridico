@@ -11,7 +11,6 @@ export async function generateStaticParams() {
   }));
 }
 
-// This is your main page component
 export default function BlogPostPage({ params }) {
   const { slug } = params;
 
