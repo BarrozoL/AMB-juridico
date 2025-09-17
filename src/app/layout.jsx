@@ -13,6 +13,9 @@ import FloatingWhatsAppButton from "./components/FloatingWhatsappButton";
 
 import { FloatingWhatsAppAnimated } from "./components/FloatingWhatsappButton";
 
+import StructuredData from "./components/StructuredData";
+import { schema } from "./components/schema";
+
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -69,6 +72,21 @@ export default function RootLayout({ children }) {
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <GoogleTagManagerNoscript />
+        <StructuredData
+          id="ld-legalservice"
+          data={schema.legalService({
+            name: "Accacio Monteiro Barrozo Assessoria Jurídica",
+            url: "https://www.accaciobarrozo.com/",
+            telephone: "+5521999684428",
+            areaServed: ["Rio de Janeiro", "Brasil"],
+            address: {
+              "@type": "PostalAddress",
+              addressLocality: "Rio de Janeiro",
+              addressRegion: "RJ",
+              addressCountry: "BR",
+            },
+          })}
+        />
         <Navbar />
         {children}
         <Footer />
