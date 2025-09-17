@@ -1,3 +1,8 @@
+export const metadata = {
+  robots: { index: false, follow: true },
+  alternates: { canonical: "/contato" },
+};
+
 export default function FormCompletePage() {
   return (
     <>

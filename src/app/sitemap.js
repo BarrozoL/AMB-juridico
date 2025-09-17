@@ -31,8 +31,6 @@ export default async function sitemap() {
     "/blog/em-quais-casos-posso-fazer-um-distrato-de-imovel": "2025-05-10",
     "/blog/posso-solicitar-um-distrato-mesmo-estando-inadimplente-ou-com-dificuldades-para-pagar-as-prestacoes":
       "2025-04-30",
-    "/blog/a-defesa-do-contribuinte-em-processos-de-execução-fiscal-por-dívida-de-iptu":
-      "2025-04-15",
     "/blog/o-processo-de-execucao-fiscal-e-a-formalizacao-da-cda-certidao-da-divida-ativa":
       "2025-09-16",
     "/blog/estrategias-que-podem-ser-adotadas-na-defesa-do-contribuinte-na-execucao-fiscal-do-iptu":
@@ -74,13 +72,12 @@ export default async function sitemap() {
     "/blog/e-possivel-realizar-um-distrato-de-imovel-ainda-na-planta",
     "/blog/em-quais-casos-posso-fazer-um-distrato-de-imovel",
     "/blog/posso-solicitar-um-distrato-mesmo-estando-inadimplente-ou-com-dificuldades-para-pagar-as-prestacoes",
-    "/blog/a-defesa-do-contribuinte-em-processos-de-execução-fiscal-por-dívida-de-iptu",
+    "/blog/a-defesa-do-contribuinte-em-processos-de-execucao-fiscal-por-divida-de-iptu",
     "/blog/redirecionamento-da-execucao-fiscal-para-o-socio-o-que-e-e-como-acontece",
     "/blog/tese-fixada-pelo-stj-quanto-a-possibilidade-de-redirecionamento-da-execucao-fiscal-para-o-socio",
     "/blog/bens-e-verbas-impenhoraveis-em-execucao-fiscal-protegendo-o-patrimonio-do-devedor",
     "/blog/para-evitar-o-redirecionamento-da-execucao-fiscal-os-socios-devem-adotar-medidas-cautelosas-e-estar-cientes-de-suas-responsabilidades-aqui-estao-alguns-cuidados-essenciais",
     "/blog/redirecionamento-da-execucao-fiscal-para-socios-e-administradores-entendendo-as-responsabilidades",
-    "/blog/a-defesa-do-contribuinte-em-processos-de-execucao-fiscal-por-divida-de-iptu",
     "/blog/formas-de-contestar-a-cobranca-indevida-do-iptu",
     "/blog/consequencias-do-nao-pagamento-do-iptu",
     "/blog/estrategias-que-podem-ser-adotadas-na-defesa-do-contribuinte-na-execucao-fiscal-do-iptu",

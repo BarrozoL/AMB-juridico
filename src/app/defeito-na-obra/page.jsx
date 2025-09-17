@@ -1,5 +1,19 @@
 import React from "react";
 
+export const metadata = {
+  title: "Defeito na Obra",
+  description:
+    "Especialistas em resolução de defeitos na obra. Análise do seu caso por especialista em Direito Imobiliário.",
+  alternates: { canonical: "/defeito-na-obra" },
+  openGraph: {
+    title: "Defeito na Obra | Accacio Monteiro Barrozo Assessoria Jurídica",
+    url: "https://www.accaciobarrozo.com/defeito-na-obra",
+  },
+  twitter: {
+    title: "Defeito na Obra | Accacio Monteiro Barrozo Assessoria Jurídica",
+  },
+};
+
 export default function DefeitoNaObra() {
   return (
     <>

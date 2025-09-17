@@ -16,7 +16,7 @@ export default function Imobiliario() {
         </h1>
       </header>
 
-      <div className="w-full bg-white p-10 mx-auto text-justify text-center rounded-lg h-full">
+      <div className="w-full bg-white p-10 mx-auto text-justify rounded-lg h-full">
         <div className="space-y-4">
           <p className="">
             Em razão do aquecimento do mercado imobiliário, muitos imóveis estão

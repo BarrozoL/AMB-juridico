@@ -6,14 +6,14 @@ export default function robots() {
       {
         userAgent: "*",
         allow: "/",
-        disallow: ["/api/", "/_next/", "/tmp/", "/form-complete"],
+        disallow: ["/api/", "/_next/", "/tmp/"],
       },
 
       // Google principal
       {
         userAgent: "Googlebot",
         allow: "/",
-        disallow: ["/api/", "/_next/", "/form-complete"],
+        disallow: ["/api/", "/_next/"],
       },
       { userAgent: "Googlebot-Image", allow: "/", disallow: ["/admin/"] },
       { userAgent: "AdsBot-Google", allow: "/" },

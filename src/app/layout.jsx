@@ -24,9 +24,43 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Accacio Monteiro Barrozo Assessoria Jurídica",
+  metadataBase: new URL("https://www.accaciobarrozo.com"),
+  title: {
+    default: "Accacio Monteiro Barrozo Assessoria Jurídica",
+    template: "%s | Accacio Monteiro Barrozo Assessoria Jurídica",
+  },
   description:
-    "Advogado especializado em direito imobiliário, execução fiscal, e atraso na entrega da obra",
+    "Advogado especializado em direito imobiliário no Rio de Janeiro. Resolução de execução fiscal, IPTU, e atraso na entrega da obra. Atendimento personalizado e resultados comprovados.",
+  alternates: { canonical: "/" },
+  robots: {
+    index: true,
+    follow: true,
+    maxImagePreview: "large",
+    maxSnippet: -1,
+    maxVideoPreview: -1,
+  },
+  openGraph: {
+    type: "website",
+    siteName: "Accacio Monteiro Barrozo Assessoria Jurídica",
+    url: "https://www.accaciobarrozo.com/",
+    title:
+      "Accacio Monteiro Barrozo Assessoria Jurídica — Direito Imobiliário e Execução Fiscal",
+    description:
+      "Atendimento humano e estratégico em Direito Imobiliário e Execução Fiscal.",
+    images: [{ url: "/og/accaciobarrozo-og.jpg", width: 1200, height: 630 }],
+  },
+
+  twitter: {
+    card: "summary_large_image",
+    title:
+      "Accacio Monteiro Barrozo Assessoria Jurídica - Direito Imobiliário, Execução Fiscal e IPTU",
+    description:
+      "Advogado especializado em direito imobiliário, execução fiscal e IPTU",
+    images: ["/og/accaciobarrozo-og.jpg"],
+  },
+
+  icons: { icon: "/favicon.ico", apple: "/apple-touch-icon.png" },
+  themeColor: "#253155",
 };
 
 export default function RootLayout({ children }) {
