@@ -24,9 +24,16 @@ export const blogPosts = [
     id: 1,
     slug: "quanto-do-valor-investido-eu-posso-resgatar",
     titulo: "Quanto do valor investido eu posso resgatar?",
-    excerpt: "O valor investido pode ser resgatado em até 100% a depender...",
-    texto:
-      "O valor investido pode ser resgatado em até 100% a depender da análise do caso em questão. Porém, podemos citar os fatores que mais ocasionam o distrato. O primeiro caso diz respeito ao distrato por atraso de obra. Nesse caso, o que será analisado, é a culpa do atraso, se esta for única e exclusivamente por culpa da construtora. A devolução do investimento será realizada em sua integralidade, sem perdas ao comprador. Não só a devolução do investimento(valor investido), mas também a devolução de multas e qualquer outro valor pago pela obrigação deste contrato de compra e venda. Agora, se o distrato partir de motivos do comprador, ou seja, nenhuma cláusula ou obrigação foi descumprida, a decisão de rescindir o contrato partir de motivos pessoais do comprador, será levado em conta o entendimento majoritário dos tribunais, O comprador conseguirá recuperar aproximadamente 75% daquilo que foi investido, já que, conforme expresso em lei, a multa O contratual não poderá exceder 25% da quantia paga. Porém, se está tendo dificuldades em realizar um distrato e não sabe quais seus direitos e deveres, não hesite em procurar ajuda. Entre em contato conosco que sanaremos todas as suas dúvidas. Bem como, lhe ajudaremos em como proceder nesses casos.",
+    excerpt:
+      "O valor investido pode ser resgatado em até 100% a depender da análise do caso em questão",
+    texto: `<h1> O valor investido pode ser resgatado em até 100% a depender da análise do caso em questão. Porém, podemos citar os fatores que mais ocasionam o distrato. </h1> 
+      O primeiro caso diz respeito ao distrato por atraso de obra. Nesse caso, o que será analisado, é a culpa do atraso, se esta for única e exclusivamente por culpa da construtora. 
+      <strong>A devolução do investimento será realizada em sua integralidade, sem perdas ao comprador. Não só a devolução do investimento(valor investido), 
+      mas também a devolução de multas e qualquer outro valor pago pela obrigação deste contrato de compra e venda.</strong> <br/> <br/> Agora, se o distrato partir de motivos do comprador, ou seja, nenhuma cláusula ou obrigação foi descumprida, 
+      a decisão de rescindir o contrato partir de motivos pessoais do comprador, será levado em conta o entendimento majoritário dos tribunais, 
+      O comprador conseguirá recuperar aproximadamente 75% daquilo que foi investido, já que, conforme expresso em lei, a multa O contratual não poderá exceder 25% da quantia paga. <br/> <br/> 
+      <strong>Porém, se está tendo dificuldades em realizar um distrato e não sabe quais seus direitos e deveres, 
+      não hesite em procurar ajuda. Entre em contato conosco e sanaremos todas as suas dúvidas. Bem como, lhe ajudaremos em como proceder nesses casos.</strong>`,
     categoria: "Direito Imobiliário",
     data: "23 de março de 2020",
     imagem: imagemRio,
@@ -37,9 +44,9 @@ export const blogPosts = [
     titulo:
       "Posso solicitar um distrato, mesmo estando inadimplente ou com dificuldades para pagar as prestações?",
     excerpt:
-      "Já que atualmente o assunto acerca do distrato já é tratado em lei específica",
+      "Podemos afirmar com certeza que é possível a solicitação de distrato mesmo estando inadimplente",
     texto:
-      "Já que atualmente o assunto acerca do distrato já é tratado em lei específica, pode-se afirmar com certeza que é possível a solicitação de distrato mesmo estando inadimplente. Isto porque, em compra e venda de imóveis a aquisição é realizada através da alienação fiduciária, um meio de financiamento pelo qual o objeto do contrato fica em garantia das prestações a serem pagas. Desse modo, em caso de inadimplência, o contrato poderá ser resolvido apenas com a devolução do imóvel para a instituição financeira responsável. Nesse caso, o objeto do contrato será vendido, de modo que a instituição quite as parcelas em atraso e o saldo positivo seja de propriedade do então comprador.",
+      "Já que atualmente o assunto acerca do distrato já é tratado em lei específica, pode-se afirmar com certeza que é possível a solicitação de distrato mesmo estando inadimplente. Isto porque, em compra e venda de imóveis a aquisição é realizada através da alienação fiduciária, um meio de financiamento pelo qual o objeto do contrato fica em garantia das prestações a serem pagas. </br> </br> Desse modo, em caso de inadimplência, o contrato poderá ser resolvido apenas com a devolução do imóvel para a instituição financeira responsável. Nesse caso, o objeto do contrato será vendido, de modo que a instituição quite as parcelas em atraso e o saldo positivo seja de propriedade do então comprador.",
     categoria: "Direito Imobiliário",
     data: "16 de março de 2020",
     imagem: imagemBalançaMarteloStock,
@@ -50,8 +57,9 @@ export const blogPosts = [
     titulo: "Em quais casos posso fazer um distrato de imóvel?",
     excerpt:
       "O distrato, como já observado no post anterior, recebeu lei específica a partir de 2018, e é nela que estão previstos todos os requisitos...",
-    texto:
-      "O distrato, como já observado no post anterior, recebeu lei específica a partir de 2018, e é nela que estão previstos todos os requisitos e ferramentas de como será exercido o distrato de imóvel. Mas e quando o comprador e vendedor se vê em uma situação em que não deseja mais continuar o contrato e resolve fazer um distrato, a grande dúvida é em como realizá-la e em quais hipóteses poderá realizá-la. Em caso de desistência, a multa já estará estipulada em contrato, e caso contrário, poderá ser aplicada multa de até 50% caso o imóvel estiver incluído no regime de patrimônio de afetação, ou seja, aqueles que não estão registrados como patrimônio da construtora, mas que tenham CNPJ e contabilidade próprios. Agora, se o imóvel estiver inscrito no nome da construtora, a multa a ser cobrada poderá atingir até 25%. Porém, o que se busca nesses casos, é uma devolução da integralidade do valor investido ou próximo à integralidade, de modo que, a multa por distrato venha a ser mínima. O prazo e valor para devolução seguirá alguns requisitos: Se o comprador desistir da compra do imóvel no regime de patrimônio de afetação, os valores serão devolvidos até 30 após o habite-se. Não sendo este o caso, o pagamento da devolução será feito em até 180 dias depois de desfeito o negócio. Se o imóvel devolvido venha a ser revendido pela construtora antes do fim do prazo para devolução do dinheiro, o pagamento será antecipado: deve ser feito até 30 dias após a nova venda. O mais comum dos prazos é a revolução do contrato por atraso na entrega pela construtora. Ocorrendo isso, a empresa deverá resolver o contrato em até 180 dias para extrapolar o prazo de entrega. Já o termo de arrependimento está previsto pela nova lei e diz respeito a compras realizadas em estandes de venda ou fora da sede do incorporador. Nesses casos, o comprador tem até sete dias para desistir do negócio e receber de volta os valores pagos, incluindo corretagem. Portanto, se ainda tem dúvidas sobre o assunto, entre em contato conosco que estaremos prontos para lhe atender!",
+    texto: `O distrato, como já observado no post anterior, recebeu lei específica a partir de 2018, e é nela que estão previstos todos os requisitos e ferramentas de como será exercido o distrato de imóvel. Mas, quando o comprador e vendedor se vê em uma situação em que não deseja mais continuar o contrato e resolve fazer um distrato, <strong> a grande dúvida é em como realizá-la e em quais hipóteses poderá realizá-la.</strong>  </br> </br> Em caso de desistência, a multa já estará estipulada em contrato, e caso contrário, poderá ser aplicada multa de até 50% caso o imóvel estiver incluído no regime de patrimônio de afetação, ou seja, aqueles que não estão registrados como patrimônio da construtora, mas que tenham CNPJ e contabilidade próprios. 
+          Agora, se o imóvel estiver inscrito no nome da construtora, a multa a ser cobrada poderá atingir até 25%. Porém, o que se busca nesses casos, é uma devolução da integralidade do valor investido ou próximo à integralidade, de modo que, a multa por distrato venha a ser mínima. O prazo e valor para devolução seguirá alguns requisitos: Se o comprador desistir da compra do imóvel no regime de patrimônio de afetação, os valores serão devolvidos até 30 após o habite-se. Não sendo este o caso, o pagamento da devolução será feito em até 180 dias depois de desfeito o negócio. 
+          </br> </br> Se o imóvel devolvido venha a ser revendido pela construtora antes do fim do prazo para devolução do dinheiro, o pagamento será antecipado: deve ser feito até 30 dias após a nova venda. O mais comum dos prazos é a revolução do contrato por atraso na entrega pela construtora. Ocorrendo isso, a empresa deverá resolver o contrato em até 180 dias para extrapolar o prazo de entrega. Já o termo de arrependimento está previsto pela nova lei e diz respeito a compras realizadas em estandes de venda ou fora da sede do incorporador. Nesses casos, o comprador tem até sete dias para desistir do negócio e receber de volta os valores pagos, incluindo corretagem. <strong> Portanto, se ainda tem dúvidas sobre o assunto, entre em contato conosco que estaremos prontos para lhe atender!</strong> `,
     categoria: "Direito Imobiliário",
     data: "9 de março de 2020",
     imagem: imagemBondinho,
@@ -191,9 +199,8 @@ Na hora de comprar o seu imóvel, fique atento a todas as cláusulas do contrato
       "O processo de execução fiscal e a formalização da CDA – Certidão da dívida ativa",
     excerpt:
       "A Certidão de Dívida Ativa (CDA) é a base da execução fiscal de IPTU. Se não for emitida corretamente, pode até gerar a nulidade da cobrança...",
-    texto: `O processo de execução fiscal é uma ferramenta crucial para a cobrança de dívidas tributárias. No entanto, para garantir a validade e eficácia desse processo, é fundamental que o fisco observe com atenção a Certidão de Dívida Ativa (CDA). A CDA é o documento que formaliza a inscrição do débito na dívida ativa da Fazenda Pública e serve como base para a execução fiscal. ${(
-      <br />
-    )} Aqui estão algumas questões essenciais que devem constar na CDA, pois quando não observadas, o contribuinte poderá alegar nulidade: 
+    texto: `O processo de execução fiscal é uma ferramenta crucial para a cobrança de dívidas tributárias. No entanto, para garantir a validade e eficácia desse processo, é fundamental que o fisco observe com atenção a Certidão de Dívida Ativa (CDA). A CDA é o documento que formaliza a inscrição do débito na dívida ativa da Fazenda Pública e serve como base para a execução fiscal.
+     Aqui estão algumas questões essenciais que devem constar na CDA, pois quando não observadas, o contribuinte poderá alegar nulidade: 
     
     • Fundamentação Legal:
 
